@@ -14,13 +14,13 @@ TWNM 的作者版本是 [arXiv:2601.02954](https://arxiv.org/abs/2601.02954)，�
 
 英文页面为中文论文与专利提供译名，并保留中文原题。除声呐论文已有出版社英文题目外，这些英文译名由本站翻译，详情页注明这一点。BibTeX 导出保留原文题目。专利编号按教师主页列出的申请或登记编号保存，没有统一将其描述为已授权专利。
 
-首页六张卡片分别展示TWNM、Flow-HOA、SHB-AE、CrossMamba、Leveraging Sound Source Trajectories和TA-V2A的原图。图片直接从固定版本的公开作者PDF渲染并提取，保留完整图形和文字，网页不显示图注。每张图的PDF网址、版本、图号、页码、像素大小和哈希保存在 `data/paper-figures.json`，论文卡片提供原文链接。曲老师照片来自北大官方教师页面。
+首页收录14篇论文的主图。“最新论文”和“引用最多”分别从这些论文中按Scholar顺序选取前8篇，因此两种入口展示不同的论文集合。图片直接从对应论文PDF渲染并提取，保留完整图形和文字，网页不显示图注。每张图的来源网址、版本、图号、页码、裁切坐标、像素大小和哈希保存在 `data/paper-figures.json`。新增8篇包括ICASSP 2026包络分离辅助声源计数与定位、JAES 2026球谐波束编码、个性化HRTF建模、语音反射与掩蔽、选择性注意、Deep-Modal、空间分离与前脉冲抑制、语音知觉融合。ICASSP 2026图片来自实验室提供的五页作者定稿，题名与四位作者逐一核对，卡片链接[IEEE出版页面](https://ieeexplore.ieee.org/document/11464467)。JAES图片从本轮重新取得的[公开作者稿](https://konoyo-014.github.io/files/JAES_SHBAE_After_Rebuttal3.pdf)提取；其余新增图片来自此前核对过的arXiv、作者项目页、Frontiers和北大心理学院作者文献存档。原有TWNM、Flow-HOA、SHB-AE、CrossMamba、Leveraging Sound Source Trajectories和TA-V2A图片继续保留。曲老师照片来自北大官方教师页面。
 
-两轮PDF补查为原目录新增42个入口，其中37篇是论文全文或书籍章节，5条是已单独标明的会议摘要；新增入口中40个来自非arXiv来源。当前目录共52条记录提供PDF，其中47条是全文或章节，5条是摘要。第一轮新增30条，第二轮新增12条，逐条来源、检查结果和各轮数量保存在 `data/pdf-sources.json`。
+PDF补查为原目录新增43个入口，其中38篇是论文全文或书籍章节，5条是已单独标明的会议摘要；新增入口中41个来自非arXiv来源。当前目录共53条记录提供PDF，其中48条是全文或章节，5条是摘要。2026年10月16日补充的ICASSP 2026包络分离论文采用实验室提供的五页作者定稿，题名和四位作者与出版记录一致，文件标明为作者稿。逐条来源、检查结果和各轮数量保存在 `data/pdf-sources.json`。
 
 第二轮检查了仍缺PDF且已匹配到曲天书Google Scholar的全部51条论文详情，并继续查找作者主页、机构文献存档、ResearchGate公开上传和会议论文集。新增全文包括2026年JAES球谐波束编码、2023年迭代嵌入分离SELD、2021年个体HRTF双耳渲染、2019年GAN带宽扩展，以及早期HRTF和听觉研究。JAES文件首页标有DRAFT，网页链接注明“PDF（作者稿）”，正式书目信息保持原目录记录。Stanford作者副本首页标明AES 150th Convention 2021，未使用Scholar中的2020年替换正式年份。同题的POMA 2013全文与JASA会议摘要按PDF内DOI分别对应。
 
-新增42个入口中，30个通过普通HTTPS请求取得PDF并核对文件头、题名和作者；其余12个由网页工具实际按PDF解析并核对正文。ResearchGate文件由论文作者公开上传，普通本地请求可能被该站拦截，检查方法据实记录。ICASSP 2026两篇论文的会议Manuscript链接指向IEEE；已查的公开来源尚未提供可验证的作者PDF，IEEE访问要求与已查入口另存于 `unresolvedChecks`，未将其计入PDF数量。
+新增43个入口中，30个通过普通HTTPS请求取得PDF并核对文件头、题名和作者，12个由网页工具实际按PDF解析并核对正文，1个来自已核对的实验室作者定稿。ResearchGate文件由论文作者公开上传，普通本地请求可能被该站拦截，检查方法据实记录。ICASSP 2026两篇论文的会议Manuscript链接指向IEEE；包络分离论文同时提供本站保存的作者PDF，汽车声场论文继续提供已核实的IEEE出版页面。
 
 非arXiv来源包括[北大HPC成果存档](https://hpc.pku.edu.cn/achievement_3.html)、[北大心理学院作者文献页](https://psy.pku.edu.cn/english/people/faculty/professor/liangli/index.htm)、[Deep-Modal作者项目页](https://hellojxt.github.io/DeepModal/)、[ISCA官方论文集](https://www.isca-archive.org/interspeech_2020/peng20_interspeech.html)、Frontiers、PLOS、ICA 2016及声学会议的官方论文集。会议摘要集的链接指定相应PDF页码。没有将只能打开元数据页面、返回HTML或已经失效的地址当作PDF。
 
@@ -34,6 +34,6 @@ TWNM 的作者版本是 [arXiv:2601.02954](https://arxiv.org/abs/2601.02954)，�
 
 本次更新保留原107条学术文献、43条专利、1条软件著作权及教师主页138条记录的对应关系。原有题名、作者、发表年份与出版信息保持不变；此次新增PDF、作者版本、代码和基准入口。文献整理日期与链接检查日期分别记录。
 
-首页FlashCards的两种排序依据[曲天书的Google Scholar主页](https://scholar.google.com/citations?user=WztllNMAAAAJ&hl=en)，于2026年10月15日读取。主页显示Peking University及已验证的pku.edu.cn邮箱。分别读取默认被引顺序和 `sortby=pubdate` 最新顺序，各分页100条加末页2条，共102条记录，末页没有更多结果。结构化结果、页面哈希、匹配依据与实际名次保存在 `data/google-scholar.json`。六张首页卡片的年份、引用数和名次均已逐条核对，不使用其他数据库计数代替Scholar。SHB-AE采用2025年AES会议记录的3次引用，没有与2026年预印本记录的2次引用相加。Scholar页面中未显示引用数的条目保留为空，没有用0替代。首页卡片显示数据日期，排序选择会保留到同一页面的另一语言版本。
+首页FlashCards的两种排序依据[曲天书的Google Scholar主页](https://scholar.google.com/citations?user=WztllNMAAAAJ&hl=en)，于2026年10月15日读取。主页显示Peking University及已验证的pku.edu.cn邮箱。分别读取默认被引顺序和 `sortby=pubdate` 最新顺序，各分页100条加末页2条，共102条记录，末页没有更多结果。结构化结果、页面哈希、匹配依据与实际名次保存在 `data/google-scholar.json`。14篇卡片论文的年份、引用数和名次均已逐条核对，不使用其他数据库计数代替Scholar。两种入口只从已取得主图的论文中选择；当前未覆盖Scholar全部论文，也未覆盖最高被引的Spark Gap论文主图。SHB-AE采用2025年AES会议记录的3次引用，没有与2026年预印本记录的2次引用相加。Scholar页面中未显示引用数的条目保留为空，没有用0替代。首页卡片显示数据日期，展示选择会保留到同一页面的另一语言版本。
 
 研究生课程名称由用户在本会话中更正为“空间听觉与音频、音乐处理”，英文采用“Spatial Hearing and Audio/Music Processing”。首页与中英文个人介绍页采用这一名称；本科课程名称继续依据北大官方页面。课程更正来源同时记录在 `data/faculty.json`。

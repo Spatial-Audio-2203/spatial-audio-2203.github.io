@@ -1,6 +1,177 @@
 {
-  "checked": "2026-10-15",
+  "checked": "2026-10-16",
+  "perView": 8,
   "figures": [
+    {
+      "paper": "qu-3f2a8b8319",
+      "name": {"zh": "球谐波束编码", "en": "Spherical harmonic encoding"},
+      "venue": "JAES",
+      "image": "/assets/paper-figures/shb-jaes.webp",
+      "width": 1452,
+      "height": 1550,
+      "figure_number": 4,
+      "source": "https://konoyo-014.github.io/files/JAES_SHBAE_After_Rebuttal3.pdf",
+      "source_pdf": "https://konoyo-014.github.io/files/JAES_SHBAE_After_Rebuttal3.pdf",
+      "source_version": "public author manuscript",
+      "source_page": 7,
+      "source_pdf_sha256": "df3e61d45e16a6329ee4af8e37ce672ef85f304497fd2878e9a78656158517fa",
+      "image_sha256": "3393fa0ac0874cd1ca46ba5d330bbe6bd54b56f69c6d66fb633c8c033fc37714",
+      "render_dpi": 441.379,
+      "crop_pdf_points": [304.033, 144.529, 540.865, 397.373],
+      "checked": "2026-10-16",
+      "label": {
+        "zh": "时域、频域和基准方法的系统脉冲响应波形，并标出前回声与直达声区间。",
+        "en": "System impulse responses for the time-domain, frequency-domain, and baseline methods, with pre-echo and direct-sound regions highlighted."
+      }
+    },
+    {
+      "paper": "qu-8520e1d2fd",
+      "name": {"zh": "声源计数与定位", "en": "Source counting & localization"},
+      "venue": "ICASSP",
+      "image": "/assets/paper-figures/envelope-separation.webp",
+      "width": 2126,
+      "height": 567,
+      "figure_number": 1,
+      "source": "https://ieeexplore.ieee.org/document/11464467",
+      "source_pdf": "https://spatial-audio-2203.github.io/assets/papers/envelope-separation-icassp-2026.pdf",
+      "source_version": "author final manuscript supplied by the lab",
+      "source_page": 2,
+      "source_pdf_sha256": "130cdd2b11a8fb79c8e593332113731cb94a6d2695746425a9fcd0e5a8fe314d",
+      "image_sha256": "e224c7994d88430e50bc0e26de03e831b7946f2fbf59ea651571c8b7e04fea8a",
+      "render_dpi": 600,
+      "crop_pdf_points": [53, 237, 308, 305],
+      "checked": "2026-10-16",
+      "label": {
+        "zh": "包络分离辅助声源计数与定位模型的整体结构，包括声学特征提取、自适应吸引子和多任务学习模块。",
+        "en": "Overall framework of the envelope separation aided model, including acoustic feature extraction, adaptive attractor, and multi-task learning modules."
+      }
+    },
+    {
+      "paper": "qu-30fa2c4be9",
+      "name": {"zh": "个性化 HRTF", "en": "Individual HRTFs"},
+      "venue": "IEEE/ACM TASLP",
+      "image": "/assets/paper-figures/hrtf-spca.webp",
+      "width": 1434,
+      "height": 594,
+      "figure_number": 2,
+      "source": "https://arxiv.org/pdf/1910.09484",
+      "source_pdf": "https://arxiv.org/pdf/1910.09484",
+      "source_page": 4,
+      "source_pdf_sha256": "66d88c4b538db9f940d89f07244bf1b8a9640ba018edfbe446caf6a88a62f6f1",
+      "image_sha256": "f4b767b0826b6101e2e0d26307e0df044eb2cc2b8bbfea2afe1143f54076c7d5",
+      "render_dpi": 432,
+      "crop_pdf_points": [318, 49, 557, 148],
+      "checked": "2026-10-16",
+      "label": {
+        "zh": "个性化 HRTF 建模框架：由人体测量参数和声源方向预测空间主成分、权重及双耳时间差，重建头相关脉冲响应。",
+        "en": "Individual HRTF modeling framework: anthropometric parameters and source direction predict spatial components, weights, and interaural time differences to reconstruct head-related impulse responses."
+      }
+    },
+    {
+      "paper": "qu-4d05b149d3",
+      "name": {"zh": "语音反射与掩蔽", "en": "Speech reflection"},
+      "venue": "Hearing Research",
+      "image": "/assets/paper-figures/speech-reflection.webp",
+      "width": 1497,
+      "height": 1697,
+      "figure_number": 2,
+      "source": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2009052800009.pdf",
+      "source_pdf": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2009052800009.pdf",
+      "source_page": 6,
+      "source_pdf_sha256": "82b4f9bb77b2aaa0e62bab605c410961412ac94f7187dd856183557496eba5b3",
+      "image_sha256": "49f9ca5ff5140a38cd95791f2bdb88acd3f2fd22037cfc63cdf7cc9d7979b6da",
+      "render_dpi": 300,
+      "crop_pdf_points": [123, 87, 482, 494],
+      "checked": "2026-10-16",
+      "label": {
+        "zh": "目标语音与掩蔽声的实验布置：比较单扬声器和双扬声器条件下的目标声、语音掩蔽及噪声掩蔽。",
+        "en": "Experimental layouts for target speech and maskers, comparing target, speech-masker, and noise-masker presentation with one or two loudspeakers."
+      }
+    },
+    {
+      "paper": "qu-cfe97db055",
+      "name": {"zh": "选择性注意", "en": "Selective attention"},
+      "venue": "Frontiers in Human Neuroscience",
+      "image": "/assets/paper-figures/selective-attention.webp",
+      "width": 1200,
+      "height": 1420,
+      "figure_number": 3,
+      "source": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2017.00034/pdf",
+      "source_pdf": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2017.00034/pdf",
+      "source_page": 5,
+      "source_pdf_sha256": "e523b1e1a6b24b03d248a863554cb3dda9cdaddbd6f5f2c9eb3b6eb83f96eb54",
+      "image_sha256": "846c1305c553f11199ff5fcc67d46a21eef0b997bf0ea729b10f6dad8c30d530",
+      "render_dpi": 360,
+      "crop_pdf_points": [306, 63, 546, 347],
+      "checked": "2026-10-16",
+      "label": {
+        "zh": "不同脑电频段的头皮分布图，比较选择性注意与非选择性注意条件下混合语音和目标语音脑电响应的相关性。",
+        "en": "Scalp maps across EEG frequency bands comparing correlations between mixed-speech and target-speech responses under selective and non-selective attention."
+      }
+    },
+    {
+      "paper": "qu-f628ebae2b",
+      "name": {"zh": "Deep-Modal", "en": "Deep-Modal"},
+      "venue": "ACM Multimedia",
+      "image": "/assets/paper-figures/deep-modal.webp",
+      "width": 2165,
+      "height": 1080,
+      "figure_number": 1,
+      "source": "https://hellojxt.github.io/DeepModal/ACMMM20_ModalSound.pdf",
+      "source_pdf": "https://hellojxt.github.io/DeepModal/ACMMM20_ModalSound.pdf",
+      "source_page": 1,
+      "source_pdf_sha256": "b692a93c37ac643c04a4fa8a48d364128ef984dcd7cba6fe95cf105601075da9",
+      "image_sha256": "f0b6e0ef42be8a0de439d3e091a38915c478eac28e79bcb166f24969b0ec5343",
+      "render_dpi": 360,
+      "crop_pdf_points": [91, 228, 524, 444],
+      "checked": "2026-10-16",
+      "label": {
+        "zh": "Deep-Modal 与传统模态声音合成的对比示意图，展示从三维形状、接触力和位置到碰撞声音的处理过程。",
+        "en": "Comparison of Deep-Modal and conventional modal sound synthesis, showing how 3D shape, contact force, and contact position produce impact sounds."
+      }
+    },
+    {
+      "paper": "qu-4022a05ec1",
+      "name": {"zh": "空间分离与前脉冲抑制", "en": "Spatial separation & PPI"},
+      "venue": "Behavioural Brain Research",
+      "image": "/assets/paper-figures/spatial-separation-ppi.webp",
+      "width": 708,
+      "height": 1188,
+      "figure_number": 1,
+      "source": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2014051200001.pdf",
+      "source_pdf": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2014051200001.pdf",
+      "source_page": 3,
+      "source_pdf_sha256": "21e18a5f0da327e7e754bbd1707c4124490f513d416380171193412392f225ae",
+      "image_sha256": "acb5f69b46e0d58c850152c8abfde1ffa97dd12895ed2b6395e22d0968e5c016",
+      "render_dpi": 288,
+      "crop_pdf_points": [80, 52, 257, 349],
+      "checked": "2026-10-16",
+      "label": {
+        "zh": "大鼠实验中前脉冲与掩蔽噪声的物理位置、知觉分离和知觉共位条件。",
+        "en": "Physical speaker arrangement and perceived separation or colocation of prepulse and noise masker in rats."
+      }
+    },
+    {
+      "paper": "qu-750bc2e39c",
+      "name": {"zh": "语音知觉融合", "en": "Speech fusion"},
+      "venue": "Journal of Cognitive Neuroscience",
+      "image": "/assets/paper-figures/speech-fusion.webp",
+      "width": 2012,
+      "height": 1468,
+      "figure_number": 4,
+      "source": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2011012500001.pdf",
+      "source_pdf": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2011012500001.pdf",
+      "source_page": 7,
+      "source_pdf_sha256": "444a374d6cab6b9a21072f893ef87db9090017237396ab75df75266451b17a0f",
+      "image_sha256": "8946011c1e569a3ee2fb2740d9844ce364c5d16029acb45c9f024d4a6d638979",
+      "render_dpi": 288,
+      "crop_pdf_points": [60, 56, 563, 423],
+      "checked": "2026-10-16",
+      "label": {
+        "zh": "正常语序语音融合与空间分离条件下的脑区激活和 BOLD 时间进程。",
+        "en": "Brain activation and BOLD time courses for perceptual fusion of normal-order speech."
+      }
+    },
     {
       "paper_id": "twnm",
       "title": "The World is Not Mono: Enabling Spatial Understanding in Large Audio-Language Models",

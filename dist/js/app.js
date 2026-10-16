@@ -41,21 +41,23 @@ if(deck){
  deck.querySelector('.deck-controls').hidden=false;deck.querySelector('.deck-picker').hidden=false;
  function reflect(index){current=index;deck.querySelector('.deck-count').textContent=(index+1)+' / '+cards.length;pickers.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===index)));}
  const number=value=>value===''?null:Number(value);
- const deckItems=cards.map(card=>({card,picker:pickers.find(b=>b.getAttribute('aria-controls')===card.id),year:Number(card.dataset.scholarYear),scholar:{year:Number(card.dataset.scholarYear),citedBy:number(card.dataset.citations),dateRank:number(card.dataset.dateRank),citationRank:number(card.dataset.citationRank)}}));
- const sortSelect=deck.querySelector('#home-paper-sort');sortSelect.closest('label').hidden=false;
+ const deckItems=cards.map(card=>({card,picker:pickers.find(b=>b.getAttribute('aria-controls')===card.id),views:card.dataset.paperViews.split(' '),year:Number(card.dataset.scholarYear),scholar:{year:Number(card.dataset.scholarYear),citedBy:number(card.dataset.citations),dateRank:number(card.dataset.dateRank),citationRank:number(card.dataset.citationRank)}}));
+ const orderButtons=[...deck.querySelectorAll('[data-paper-order]')];deck.querySelector('.paper-view-controls').hidden=false;
  function orderCards(order,sync=true){
-  const sorted=sortPublications(deckItems,order);cards=sorted.map(x=>x.card);pickers=sorted.map(x=>x.picker);current=0;cancelAnimationFrame(scrollFrame);
+  const sorted=sortPublications(deckItems.filter(item=>item.views.includes(order)),order);cards=sorted.map(x=>x.card);pickers=sorted.map(x=>x.picker);current=0;cancelAnimationFrame(scrollFrame);
+  if(!cards.length)throw new Error('No homepage papers for selection: '+order);
+  cards.forEach(card=>{card.hidden=false;});pickers.forEach(button=>{button.hidden=false;});
   track.replaceChildren(...cards);deck.querySelector('.deck-picker').replaceChildren(...pickers);
   cards.forEach((card,i)=>{card.setAttribute('aria-label',(i+1)+' / '+cards.length+': '+card.dataset.title);pickers[i].dataset.deckIndex=String(i);});
-  track.scrollTo({left:0,behavior:'instant'});reflect(0);sortSelect.value=order;
+  track.scrollTo({left:0,behavior:'instant'});reflect(0);orderButtons.forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.paperOrder===order)));
   const source=deck.querySelector('.home-scholar-link'),sourceUrl=new URL(source.href);if(order==='year')sourceUrl.searchParams.set('sortby','pubdate');else sourceUrl.searchParams.delete('sortby');source.href=sourceUrl;
   if(sync){const url=new URL(location.href);if(order==='year')url.searchParams.delete('sort');else url.searchParams.set('sort','citations');history.replaceState(null,'',url);}
  }
  orderCards(new URLSearchParams(location.search).get('sort')==='citations'?'citations':'year',false);
- sortSelect.addEventListener('change',()=>orderCards(sortSelect.value));
+ orderButtons.forEach(button=>button.addEventListener('click',()=>orderCards(button.dataset.paperOrder)));
  function show(index){index=(index+cards.length)%cards.length;track.scrollTo({left:cards[index].offsetLeft,behavior:reducedMotion.matches?'instant':'smooth'});reflect(index);}
  deck.querySelectorAll('[data-deck-step]').forEach(b=>b.addEventListener('click',()=>show(current+Number(b.dataset.deckStep))));
- pickers.forEach(b=>b.addEventListener('click',()=>show(Number(b.dataset.deckIndex))));
+ deck.querySelector('.deck-picker').addEventListener('click',e=>{const button=e.target.closest('[data-deck-index]');if(button)show(Number(button.dataset.deckIndex));});
  track.addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','Home','End'].includes(e.key))return;e.preventDefault();show(e.key==='Home'?0:e.key==='End'?cards.length-1:current+(e.key==='ArrowRight'?1:-1));});
  track.addEventListener('scroll',()=>{cancelAnimationFrame(scrollFrame);scrollFrame=requestAnimationFrame(()=>{const distances=cards.map(card=>Math.abs(card.offsetLeft-track.scrollLeft));reflect(distances.indexOf(Math.min(...distances)));});},{passive:true});
  new ResizeObserver(()=>track.scrollTo({left:cards[current].offsetLeft,behavior:'instant'})).observe(track);

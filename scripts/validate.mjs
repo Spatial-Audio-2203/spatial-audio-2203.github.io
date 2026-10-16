@@ -25,18 +25,23 @@ for(const record of pdfSources.records){const p=papers.find(p=>p.id===record.id)
 for(const r of research)for(const id of r.papers)if(!papers.find(p=>p.id===id))throw new Error('Unknown related publication: '+id);
 for(const directory of ['dist/js','scripts'])for(const file of await readdir(path.join(root,directory))){if(!/\.(?:js|mjs)$/.test(file))continue;const result=spawnSync(process.execPath,['--check',path.join(root,directory,file)],{encoding:'utf8'});if(result.status!==0)throw new Error(result.stderr);}
 const figureData=JSON.parse(await readFile(path.join(root,'data/paper-figures.json'),'utf8'));
+if(!Number.isInteger(figureData.perView)||figureData.perView<1||figureData.perView>=figureData.figures.length)throw new Error('Invalid homepage selection size');
+if(new Set(figureData.figures.map(f=>f.paper)).size!==figureData.figures.length)throw new Error('Duplicate homepage paper figures');
 const scholar=JSON.parse(await readFile(path.join(root,'data/google-scholar.json'),'utf8'));
 if(new URL(scholar.profile_url).hostname!=='scholar.google.com'||!scholar.checked_date)throw new Error('Missing Scholar source');
 if(new Set(scholar.matches.map(m=>m.scholarId)).size!==scholar.matches.length)throw new Error('Duplicate Scholar matches');
 const figurePapers=figureData.figures.map(f=>{
  const paper=papers.find(p=>p.id===f.paper),match=scholar.matches.find(m=>m.id===f.paper);
- if(!match||!Number.isInteger(match.scholarYear)||!Number.isInteger(match.citedBy)||!Number.isInteger(match.dateRank)||!Number.isInteger(match.citationRank))throw new Error('Missing Scholar data for homepage card: '+f.paper);
+ if(!match||!Number.isInteger(match.scholarYear)||(match.citedBy!==null&&(!Number.isInteger(match.citedBy)||match.citedBy<0))||!Number.isInteger(match.dateRank)||!Number.isInteger(match.citationRank))throw new Error('Missing Scholar data for homepage card: '+f.paper);
  return {id:paper.id,year:paper.year,scholar:{year:match.scholarYear,citedBy:match.citedBy,dateRank:match.dateRank,citationRank:match.citationRank}};
 });
+const selections={};
 for(const [mode,key] of [['year','dateRank'],['citations','citationRank']]){
  const actual=sortPublications(figurePapers,mode).map(p=>p.id),expected=[...figurePapers].sort((a,b)=>a.scholar[key]-b.scholar[key]).map(p=>p.id);
  if(JSON.stringify(actual)!==JSON.stringify(expected))throw new Error('Homepage card order differs from Scholar: '+mode);
+ selections[mode]=actual.slice(0,figureData.perView);
 }
+if(selections.year.every(id=>selections.citations.includes(id)))throw new Error('Homepage selections must include different papers');
 for(const f of figureData.figures){
  if(!papers.some(p=>p.id===f.paper)||!f.label.zh||!f.label.en||!f.source.startsWith('https://')||!f.width||!f.height)throw new Error('Incomplete paper figure: '+f.paper);
  if(createHash('sha256').update(await readFile(path.join(dist,f.image))).digest('hex')!==f.image_sha256)throw new Error('Paper figure differs from cited extraction: '+f.paper);
@@ -61,6 +66,13 @@ for(const route of routes){
   if(!html.includes('rel="canonical"')||!html.includes('hreflang="en"')||!html.includes('hreflang="zh-CN"'))throw new Error('Missing language metadata: '+route);
   if(route.includes('publications/'))for(const p of all)if(!html.includes('data-record="'+p.id+'"'))throw new Error('Missing static record: '+p.id);
   if(route.startsWith('en/')&&!/<html\s+lang="en"(?:\s|>)/.test(html))throw new Error('Wrong language: '+route);
+  if(route==='index.html'||route==='en/index.html'){
+   if(html.includes('<figcaption'))throw new Error('Homepage figures must not have captions');
+   for(const mode of ['year','citations']){
+    const cards=[...html.matchAll(/<article class="paper-flashcard"[^>]*data-paper-id="([^"]+)"[^>]*data-paper-views="([^"]*)"/g)].filter(match=>match[2].split(' ').includes(mode)).map(match=>match[1]);
+    if(cards.length!==figureData.perView||cards.some(id=>!selections[mode].includes(id)))throw new Error('Incomplete homepage paper selection: '+mode+' '+route);
+   }
+  }
 }
 const citations=await readFile(path.join(dist,'catalog.bib'),'utf8');if((citations.match(/^@/gm)||[]).length!==papers.length)throw new Error('Incomplete bibliography export');
 console.log(JSON.stringify({status:'passed',routes:routes.map(r=>'/'+r.replace('index.html','')),scholarlyRecords:papers.length,pdfLinks:papers.filter(p=>p.pdf||p.arxiv).length,paperFigures:figureData.figures.length,resources:resourceData.items.length,patents:patents.length,software:software.length,facultyRecordsCovered:data.coverage.length,sourcePages:data.sourcePages,translationKeys:keys.length,checks:['metadata completeness','faculty bibliography coverage','distinct publication IDs','BibTeX exports','JavaScript syntax','local assets','navigation targets','static records','bilingual metadata','paper figure provenance','bilingual resource links','Scholar homepage card ordering']}));

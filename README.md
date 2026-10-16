@@ -1,8 +1,8 @@
-网站使用 [sbryngelson/academic-website-template](https://github.com/sbryngelson/academic-website-template)，提供北京大学空间音频实验室的中英文首页、学术论文、研究方向、曲天书老师介绍、代码与基准、联系页面。首页首先展示曲老师的照片、研究领域、主要经历与教学课程，随后以可翻页的卡片展示六篇论文的原图，双栏中保留研究动态与研究方向。各页面提供明暗主题切换和站内检索。
+网站使用 [sbryngelson/academic-website-template](https://github.com/sbryngelson/academic-website-template)，提供北京大学空间音频实验室的中英文首页、学术论文、研究方向、曲天书老师介绍、代码与基准、联系页面。首页首先展示曲老师的照片、研究领域、主要经历与教学课程，随后以可翻页的卡片展示论文原图，双栏中保留研究动态与研究方向。各页面提供明暗主题切换和站内检索。
 
-中文页面位于 `/`、`/publications/`、`/research/`、`/people/`、`/resources/`、`/contact/`，英文页面使用相同路径并加上 `/en/`。切换文献目录的语言时会保留搜索条件。目录保留107条学术文献、43条专利和1条软件著作权，可按题目、作者、研究方向、发表类型和年份检索，也可以只显示有PDF的记录。当前52条记录提供PDF，其中47条是全文或章节，5条明确标为会议摘要。JAES 2026球谐波束编码论文的公开文件标有DRAFT，链接因此注明“PDF（作者稿）”。BibTeX 可在每条记录内展开、复制或下载，也可以下载全部引用。
+中文页面位于 `/`、`/publications/`、`/research/`、`/people/`、`/resources/`、`/contact/`，英文页面使用相同路径并加上 `/en/`。切换文献目录的语言时会保留搜索条件。目录保留107条学术文献、43条专利和1条软件著作权，可按题目、作者、研究方向、发表类型和年份检索，也可以只显示有PDF的记录。当前53条记录提供PDF，其中48条是全文或章节，5条明确标为会议摘要。JAES 2026球谐波束编码论文和ICASSP 2026包络分离论文的作者版本注明“PDF（作者稿）”。BibTeX 可在每条记录内展开、复制或下载，也可以下载全部引用。
 
-论文卡片支持按钮翻页、键盘左右键与Home/End、手机横向滚动和点击放大。首页卡片可以按曲天书老师Google Scholar中的最新顺序或被引次数排序，默认显示最新研究；切换中英文后保留排序选择。每张卡片显示来源对应的引用数，页面注明检查日期。此排序只用于首页FlashCards。图片来自TWNM、Flow-HOA、SHB-AE、CrossMamba、声源轨迹分离和TA-V2A的公开作者版本；图号、页码、PDF版本与文件哈希记录在 `data/paper-figures.json`。代码与基准栏目收录TWNM-FOA Benchmark、CrossMamba、MFTS，以及NeuralSound仓库中的DeepModal部分实现。只有已确认与论文相关的作者公开资源会显示在此栏目。
+论文卡片支持按钮翻页、键盘左右键与Home/End、手机横向滚动和点击放大。首页提供“最新论文”和“引用最多”两个入口，分别从已取得并核对主图的14篇论文中，按曲天书老师Google Scholar的最新顺序和被引次数选取前8篇。两种入口展示各自的论文集合；切换中英文后保留所选入口。引用数采用2026年10月15日的Scholar快照，未显示引用数的论文保留空值。此排序只用于首页FlashCards。新增图片包括ICASSP 2026包络分离辅助声源计数与定位、JAES 2026球谐波束编码、个性化HRTF建模、语音反射与掩蔽、选择性注意、Deep-Modal、空间分离与前脉冲抑制、语音知觉融合。所有图片都直接取自对应原文，网页不显示图注；图号、页码、PDF版本与文件哈希记录在 `data/paper-figures.json`。`perView`控制每个入口展示的篇数，新增主图后构建程序会依据Scholar数据重新选择和排列论文。代码与基准栏目收录TWNM-FOA Benchmark、CrossMamba、MFTS，以及NeuralSound仓库中的DeepModal部分实现。只有已确认与论文相关的作者公开资源会显示在此栏目。
 
 30篇论文另提供明确的“IEEE Xplore”按钮，直接链接已核实的IEEE出版页面，包含需要机构或个人订阅的论文。两篇ICASSP 2026论文也提供该按钮。地址及对应依据保存在 `data/ieee-sources.json`；已有PDF、DOI、arXiv和代码链接继续显示。
 

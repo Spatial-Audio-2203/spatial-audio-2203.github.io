@@ -1,16 +1,38 @@
 {
-  "checked": "2026-10-15",
+  "checked": "2026-10-16",
   "summary": {
-    "newPdfRecords": 42,
-    "newFullPapers": 37,
+    "newPdfRecords": 43,
+    "newFullPapers": 38,
     "newAbstractPdfs": 5,
-    "newNonArxivPdfs": 40,
-    "totalPdfRecords": 52,
+    "newNonArxivPdfs": 41,
+    "totalPdfRecords": 53,
     "papers": 107,
     "facultyCoverageUnchanged": true,
     "publicationMetadataUnchanged": true
   },
   "records": [
+    {
+      "id": "qu-8520e1d2fd",
+      "title": "An Envelope Separation Aided Multi-Task Learning Model for Blind Source Counting and Localization",
+      "type": "conference",
+      "pdf": "/assets/papers/envelope-separation-icassp-2026.pdf",
+      "pdfVersion": "author-manuscript",
+      "source": "https://ieeexplore.ieee.org/document/11464467",
+      "host": "spatial-audio-2203.github.io",
+      "checked": "2026-10-16",
+      "round": 3,
+      "verification": {
+        "status": "verified",
+        "method": "Lab-provided local author final manuscript; all five pages rendered and the first-page title and four authors matched to the published record.",
+        "contentType": "application/pdf",
+        "pdfMagicHeader": "%PDF-",
+        "pageCount": 5,
+        "bytes": 2531005,
+        "sha256": "130cdd2b11a8fb79c8e593332113731cb94a6d2695746425a9fcd0e5a8fe314d",
+        "titleMatched": true,
+        "authorsMatched": true
+      }
+    },
     {
       "id": "qu-7e0d1cbfe2",
       "pdf": "https://arxiv.org/pdf/2210.16849",
@@ -896,18 +918,16 @@
       "newPdfRecords": 12,
       "newFullPapers": 11,
       "newAbstractPdfs": 1
+    },
+    {
+      "round": 3,
+      "checked": "2026-10-16",
+      "newPdfRecords": 1,
+      "newFullPapers": 1,
+      "newAbstractPdfs": 0
     }
   ],
   "unresolvedChecks": [
-    {
-      "id": "qu-8520e1d2fd",
-      "checked": "2026-10-15",
-      "conferencePage": "https://cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=13481",
-      "manuscriptLink": "https://www.cmsworkshops.com/ICASSP2026/goto_manuscript.php?pn=13481",
-      "publisherPage": "https://ieeexplore.ieee.org/document/11464467",
-      "status": "publisher_access_required; no public author PDF verified",
-      "verification": "Followed the conference View Manuscript link to IEEE. The IEEE PDF button says You do not have access to this PDF; clicking it opens institutional/member sign-in. Scholar detail and all-versions page provide no public PDF."
-    },
     {
       "id": "qu-a07b08acaa",
       "checked": "2026-10-15",

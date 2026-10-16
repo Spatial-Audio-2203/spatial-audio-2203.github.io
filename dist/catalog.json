@@ -61,6 +61,10 @@
       "publisher": "https://doi.org/10.1109/icassp55912.2026.11464467",
       "doi": "10.1109/icassp55912.2026.11464467",
       "short": "An Envelope Separation Aided Multi-Tas",
+      "pdf": "/assets/papers/envelope-separation-icassp-2026.pdf",
+      "pdfVersion": "author-manuscript",
+      "pdfChecked": "2026-10-16",
+      "pdfSource": "https://ieeexplore.ieee.org/document/11464467",
       "ieee": "https://ieeexplore.ieee.org/document/11464467",
       "ieeeSource": "https://api.crossref.org/works/10.1109%2Ficassp55912.2026.11464467",
       "ieeeChecked": "2026-10-16"
