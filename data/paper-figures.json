@@ -3,6 +3,29 @@
   "perView": 8,
   "figures": [
     {
+      "paper": "qu-9276816fe6",
+      "name": {"zh": "距离相关 HRTF 测量", "en": "Distance-dependent HRTFs"},
+      "venue": "IEEE TASL",
+      "image": "/assets/paper-figures/spark-gap.webp",
+      "width": 1000,
+      "height": 845,
+      "figure_number": 6,
+      "source": "https://ieeexplore.ieee.org/document/5109764",
+      "source_pdf": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5109764",
+      "source_version": "IEEE published version supplied by the lab",
+      "source_page": 4,
+      "source_pdf_sha256": "94ef3b299c13045a3db20a99437d2a108d494e8b5e4e118a7e5e7b279acde5f5",
+      "source_image_xref": 242,
+      "image_sha256": "226a726c21958df58213860cd018a9c6a0718f67ae8abbc379b896c2fb6a6862",
+      "crop_pdf_points": [306.6600036621094, 70.34002685546875, 546.6600341796875, 272.34002685546875],
+      "extraction": "Original embedded Figure 6 extracted from the supplied IEEE PDF at its native pixel resolution and encoded as lossless WebP. The photograph is complete; the caption is excluded.",
+      "checked": "2026-10-16",
+      "label": {
+        "zh": "消声室内的 HRTF 测量系统，包括 KEMAR 人工头、火花间隙声源、可调支架和旋转平台。",
+        "en": "HRTF measurement system in an anechoic chamber, including the KEMAR mannequin, spark-gap sound source, adjustable positioning frame, and turntable."
+      }
+    },
+    {
       "paper": "qu-3f2a8b8319",
       "name": {"zh": "球谐波束编码", "en": "Spherical harmonic encoding"},
       "venue": "JAES",
