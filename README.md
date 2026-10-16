@@ -6,7 +6,7 @@
 
 30篇论文另提供明确的“IEEE Xplore”按钮，直接链接已核实的IEEE出版页面，包含需要机构或个人订阅的论文。两篇ICASSP 2026论文也提供该按钮。地址及对应依据保存在 `data/ieee-sources.json`；已有PDF、DOI、arXiv和代码链接继续显示。
 
-项目使用 Node.js 20或更高版本，以及锁定版本的 Sass。准备依赖后即可在本地预览：
+项目使用 Node.js 20.19或更高版本，以及锁定版本的 Sass 和 Cheerio。Sass编译模板样式，Cheerio解析生成的HTML并检查页面结构。准备依赖后即可在本地预览：
 
 ```sh
 npm ci

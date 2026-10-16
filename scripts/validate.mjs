@@ -3,6 +3,7 @@ import {spawnSync} from 'node:child_process';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {createHash} from 'node:crypto';
+import {load} from 'cheerio';
 import {translations,papers,patents,software,research,bibliography,bibtex} from '../dist/js/content.js';
 import {sortPublications} from '../dist/js/publication-order.js';
 const root=path.resolve(fileURLToPath(new URL('../',import.meta.url))),dist=path.join(root,'dist');
@@ -54,22 +55,24 @@ for(const r of resourceData.items){
 const routes=['index.html','en/index.html',...['publications','research','people','resources','contact'].flatMap(p=>[p+'/index.html','en/'+p+'/index.html'])];
 for(const route of routes){
   const filename=path.join(dist,route),html=await readFile(filename,'utf8');
-  const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);if(ids.length!==new Set(ids).size)throw new Error('Duplicate HTML IDs: '+route);
+  const document=load(html,{scriptingEnabled:false}),ids=document('[id]').toArray().map(element=>document(element).attr('id'));if(ids.length!==new Set(ids).size)throw new Error('Duplicate HTML IDs: '+route);
   if(/\{\{.*?\}\}/.test(html))throw new Error('Unresolved template: '+route);
-  for(const match of html.matchAll(/(?:href|src)="([^"#]+)"/g)){
-    const url=match[1];if(/^(?:https?:|mailto:|tel:|data:)/.test(url))continue;
-    const pathname=url.split(/[?#]/)[0];let target=url.startsWith('/')?path.join(dist,pathname):path.resolve(path.dirname(filename),pathname);
+  for(const element of document('[href],[src]').toArray())for(const attribute of ['href','src']){
+    const url=document(element).attr(attribute);if(!url)continue;
+    const resolved=new URL(url,'https://spatial-audio-2203.github.io/'+route.replace('index.html',''));
+    if(resolved.origin!=='https://spatial-audio-2203.github.io')continue;
+    if(url.startsWith('#')){if(!ids.includes(decodeURIComponent(resolved.hash.slice(1))))throw new Error('Broken anchor: '+url);continue;}
+    let target=path.join(dist,decodeURIComponent(resolved.pathname));
     if(!target.startsWith(dist+path.sep)&&target!==dist)throw new Error('Asset outside dist: '+url);
     const info=await stat(target);if(info.isDirectory())target=path.join(target,'index.html');if(!(await stat(target)).isFile())throw new Error('Missing asset: '+url);
   }
-  for(const match of html.matchAll(/href="#([^"]+)"/g))if(!ids.includes(match[1]))throw new Error('Broken anchor: '+match[1]);
-  if(!html.includes('rel="canonical"')||!html.includes('hreflang="en"')||!html.includes('hreflang="zh-CN"'))throw new Error('Missing language metadata: '+route);
-  if(route.includes('publications/'))for(const p of all)if(!html.includes('data-record="'+p.id+'"'))throw new Error('Missing static record: '+p.id);
-  if(route.startsWith('en/')&&!/<html\s+lang="en"(?:\s|>)/.test(html))throw new Error('Wrong language: '+route);
+  if(!document('link[rel="canonical"]').length||!document('link[hreflang="en"]').length||!document('link[hreflang="zh-CN"]').length)throw new Error('Missing language metadata: '+route);
+  if(route.includes('publications/')){const records=new Set(document('[data-record]').toArray().map(element=>document(element).attr('data-record')));for(const p of all)if(!records.has(p.id))throw new Error('Missing static record: '+p.id);}
+  if(route.startsWith('en/')&&document('html').attr('lang')!=='en')throw new Error('Wrong language: '+route);
   if(route==='index.html'||route==='en/index.html'){
-   if(html.includes('<figcaption'))throw new Error('Homepage figures must not have captions');
+   if(document('figcaption').length)throw new Error('Homepage figures must not have captions');
    for(const mode of ['year','citations']){
-    const cards=[...html.matchAll(/<article class="paper-flashcard"[^>]*data-paper-id="([^"]+)"[^>]*data-paper-views="([^"]*)"/g)].filter(match=>match[2].split(' ').includes(mode)).map(match=>match[1]);
+    const cards=document('[data-paper-card]').toArray().filter(element=>document(element).attr('data-paper-views').split(' ').includes(mode)).map(element=>document(element).attr('data-paper-id'));
     if(cards.length!==figureData.perView||cards.some(id=>!selections[mode].includes(id)))throw new Error('Incomplete homepage paper selection: '+mode+' '+route);
    }
   }
