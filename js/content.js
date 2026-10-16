@@ -130,8 +130,8 @@ export const translations = {
     "figure": "图",
     "abstractPdf": "摘要 PDF",
     "authorManuscriptPdf": "PDF（作者稿）",
-    "sortLabel": "排序",
-    "sortYear": "最新发表",
+    "sortLabel": "论文展示",
+    "sortYear": "最新论文",
     "sortCitations": "引用最多",
     "citedBy": "被引",
     "scholarChecked": "数据日期"
@@ -265,8 +265,8 @@ export const translations = {
     "figure": "Figure",
     "abstractPdf": "Abstract PDF",
     "authorManuscriptPdf": "PDF (author manuscript)",
-    "sortLabel": "Sort by",
-    "sortYear": "Newest first",
+    "sortLabel": "Paper selection",
+    "sortYear": "Latest papers",
     "sortCitations": "Most cited",
     "citedBy": "Cited by",
     "scholarChecked": "As of"
