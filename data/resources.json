@@ -1,0 +1,153 @@
+{
+  "checked": "2026-10-15",
+  "items": [
+    {
+      "id": "twnm",
+      "paper": "twnm",
+      "kind": "benchmark",
+      "name": {
+        "zh": "TWNM-FOA Benchmark",
+        "en": "TWNM-FOA Benchmark"
+      },
+      "description": {
+        "zh": "一阶 Ambisonics 空间音频问答基准，包含 1,000 道测试题与 18 道带答案的开发样例，涵盖感知、关系整合和场景推理。",
+        "en": "A first-order Ambisonics spatial-audio benchmark with 1,000 test questions and 18 labeled development examples covering perception, relational integration and scene reasoning."
+      },
+      "links": [
+        {
+          "kind": "benchmark",
+          "url": "https://huggingface.co/datasets/KonoyoBC/TWNM-FOA-Benchmark"
+        },
+        {
+          "kind": "dataFiles",
+          "url": "https://huggingface.co/datasets/KonoyoBC/TWNM-FOA-Benchmark/tree/main"
+        },
+        {
+          "kind": "readPaper",
+          "url": "https://arxiv.org/abs/2601.02954"
+        }
+      ],
+      "verification": {
+        "paper_id": "twnm",
+        "title": "TWNM FOA Benchmark",
+        "paper": "https://arxiv.org/abs/2601.02954",
+        "pdf": "https://arxiv.org/pdf/2601.02954",
+        "benchmark": "https://huggingface.co/datasets/KonoyoBC/TWNM-FOA-Benchmark",
+        "dataset_card": "https://huggingface.co/datasets/KonoyoBC/TWNM-FOA-Benchmark/blob/main/README.md",
+        "files": "https://huggingface.co/datasets/KonoyoBC/TWNM-FOA-Benchmark/tree/main",
+        "metadata": "https://huggingface.co/datasets/KonoyoBC/TWNM-FOA-Benchmark/resolve/main/data/test/metadata.jsonl",
+        "evaluator": "https://huggingface.co/spaces/KonoyoBC/TWNM-FOA-Evaluator",
+        "evaluator_status": "RUNTIME_ERROR",
+        "evaluator_status_source": "https://huggingface.co/api/spaces/KonoyoBC/TWNM-FOA-Evaluator",
+        "evaluator_verified_working": false,
+        "evaluator_note": {
+          "zh": "评测器目前启动失败；数据集和公开元数据可正常读取。",
+          "en": "The evaluator currently reports a startup error; dataset files and public metadata are accessible."
+        },
+        "test_count": 1000,
+        "dev_count": 18,
+        "levels": {
+          "L1": 300,
+          "L2": 300,
+          "L3": 400
+        },
+        "test_has_answers": false,
+        "dev_has_answers": true,
+        "test_metadata_sha256": "2e9d48291684e24e766ef8844b9cb7f4c02a46373212f1b7b9c6d9888db5744d",
+        "description": {
+          "zh": "一阶 Ambisonics 空间音频问答基准，包含 1,000 道测试题与 18 道带答案的开发样例，涵盖感知、关系整合和场景推理。",
+          "en": "A first-order Ambisonics spatial-audio benchmark with 1,000 test questions and 18 labeled development examples covering perception, relational integration and scene reasoning."
+        },
+        "license": "other",
+        "license_note": "See the dataset NOTICE.md for heterogeneous upstream audio terms.",
+        "verification": "Retrieved public test and dev metadata and audio manifest, counted records and labels, and matched SHA-256 values to the dataset card. No scoring request was made.",
+        "dataset_commit": "09590f317a3fe1ef5328691f28eb433444f84259"
+      }
+    },
+    {
+      "id": "crossmamba",
+      "paper": "crossmamba",
+      "kind": "code",
+      "name": {
+        "zh": "CrossMamba",
+        "en": "CrossMamba"
+      },
+      "description": {
+        "zh": "目标声音提取的 CrossMamba 模块实现，提供运行示例。",
+        "en": "CrossMamba module for target sound extraction, with an execution example."
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/WuDH2000/CrossMamba"
+        },
+        {
+          "kind": "readPaper",
+          "url": "https://arxiv.org/abs/2409.04803"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2409.04803#page=3",
+        "https://github.com/WuDH2000/CrossMamba"
+      ]
+    },
+    {
+      "id": "trajectories",
+      "paper": "trajectories",
+      "kind": "code",
+      "name": {
+        "zh": "MFTS",
+        "en": "MFTS"
+      },
+      "description": {
+        "zh": "移动声源的跟踪与分离代码，包含数据仿真和各阶段训练脚本。",
+        "en": "Moving-source tracking and separation code with data simulation and stage-specific training scripts."
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/WuDH2000/MFTS"
+        },
+        {
+          "kind": "readPaper",
+          "url": "https://arxiv.org/abs/2409.04843"
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/pdf/2409.04843#page=7",
+        "https://github.com/WuDH2000/MFTS"
+      ]
+    },
+    {
+      "id": "deep-modal",
+      "paper": "qu-f628ebae2b",
+      "kind": "code",
+      "name": {
+        "zh": "Deep-Modal",
+        "en": "Deep-Modal"
+      },
+      "description": {
+        "zh": "任意形状物体的实时碰撞声音合成。作者项目页提供论文，NeuralSound 仓库包含 DeepModal 的部分实现。",
+        "en": "Real-time impact sound synthesis for arbitrary shapes. The author project page provides the paper; the NeuralSound repository contains part of the DeepModal implementation."
+      },
+      "links": [
+        {
+          "kind": "code",
+          "url": "https://github.com/hellojxt/NeuralSound"
+        },
+        {
+          "kind": "project",
+          "url": "https://hellojxt.github.io/DeepModal/"
+        },
+        {
+          "kind": "readPaper",
+          "url": "https://hellojxt.github.io/DeepModal/ACMMM20_ModalSound.pdf"
+        }
+      ],
+      "sources": [
+        "https://hellojxt.github.io/DeepModal/",
+        "https://github.com/hellojxt/NeuralSound"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+<h1>{{TITLE}}</h1>
+<div class="catalog-top"><div class="collection-tabs" role="group" aria-label="{{COLLECTION_LABEL}}">{{COLLECTION_TABS}}</div><a id="download-all" href="/catalog.bib" download="tianshu-qu-publications.bib">{{DOWNLOAD_ALL}}</a></div>
+<div class="catalog-tools" id="paper-toolbar" hidden>
+  <div class="catalog-search"><input class="pub-search" id="paper-search" type="search" aria-label="{{SEARCH_LABEL}}" placeholder="{{SEARCH_PLACEHOLDER}}" autocomplete="off"><select id="paper-type" aria-label="{{TYPE_LABEL}}">{{TYPE_OPTIONS}}</select><select id="paper-year" aria-label="{{YEAR_LABEL}}">{{YEAR_OPTIONS}}</select></div>
+  <div class="paper-filter-row"><div class="paper-filters" role="group" aria-label="{{AREA_LABEL}}">{{AREA_FILTERS}}</div><label class="pdf-only-label"><input type="checkbox" id="pdf-only"> {{PDF_ONLY}}</label></div>
+</div>
+<div class="catalog-heading"><p id="collection-note">{{CATALOG_NOTE}}</p><p id="paper-count" role="status" aria-live="polite">{{COUNT}}</p></div>
+<div class="catalog-grid"><aside class="year-sidebar"><nav id="year-navigation" aria-label="{{YEARS_LABEL}}">{{YEAR_NAV}}</nav><div class="catalog-downloads"><a href="/catalog.json" download="tianshu-qu-publications.json">{{DOWNLOAD_DATA}}</a><a href="http://scholar.pku.edu.cn/qutianshu/publications" target="_blank" rel="noopener noreferrer">{{FACULTY_LABEL}}</a></div></aside><div id="paper-results">{{PAPERS}}</div></div>
+<noscript><section class="other-outputs"><h2>{{PATENTS_TITLE}}</h2>{{PATENTS}}<h2>{{SOFTWARE_TITLE}}</h2>{{SOFTWARE}}</section></noscript>

@@ -1,0 +1,212 @@
+{
+  "checked": "2026-10-15",
+  "figures": [
+    {
+      "paper_id": "twnm",
+      "title": "The World is Not Mono: Enabling Spatial Understanding in Large Audio-Language Models",
+      "image": "/assets/paper-figures/twnm.webp",
+      "width": 2006,
+      "height": 1121,
+      "figure_number": 2,
+      "source_pdf": "https://arxiv.org/pdf/2601.02954v3",
+      "source_page": 5,
+      "source_pdf_sha256": "c9f0fb52231b693471579c9e244d47fb8e5a62afedf4b55cf11ec3c1ea7e3552",
+      "image_sha256": "b6e24779ff1613588150c89b363066fcc0f2179cc3345ce940438b5df0c049a0",
+      "checked": "2026-10-15",
+      "extraction": "Rendered directly from the cited author PDF at the recorded page, cropped to the complete figure. Caption text is supplied separately for the page. No labels or graphical content were changed.",
+      "render_dpi": 480,
+      "crop_pdf_points": [
+        150,
+        70,
+        470,
+        239
+      ],
+      "caption": {
+        "zh": "TWNM 模型结构：语义分支与空间分支经混合投影后输入语言模型。",
+        "en": "TWNM architecture: semantic and spatial branches are fused through hybrid projection before language-model reasoning."
+      },
+      "source_caption_excerpt": "TWNM model architecture. A semantic branch and a spatial branch are fused through hybrid projection before language-model reasoning.",
+      "benchmark": "https://huggingface.co/datasets/KonoyoBC/TWNM-FOA-Benchmark",
+      "source_version": "2601.02954v3",
+      "paper": "twnm",
+      "label": {
+        "zh": "TWNM 模型结构：语义分支与空间分支经混合投影后输入语言模型。",
+        "en": "TWNM architecture: semantic and spatial branches are fused through hybrid projection before language-model reasoning."
+      },
+      "source": "https://arxiv.org/pdf/2601.02954v3",
+      "venue": "NeurIPS"
+    },
+    {
+      "paper_id": "flow-hoa",
+      "title": "Flow-HOA: Generative Joint Optimization for Ambisonics Encoding via Flow Matching",
+      "image": "/assets/paper-figures/flow-hoa.webp",
+      "width": 2012,
+      "height": 1222,
+      "figure_number": 1,
+      "source_pdf": "https://arxiv.org/pdf/2606.04570v1",
+      "source_page": 4,
+      "source_pdf_sha256": "7863533dfc9f54fba7853de9da829ef587782fb1a2ce88f38de76fa808c08d0f",
+      "image_sha256": "e6708fc3298d6d8c4ce3265f6538a83487f36e16aea5376f0b10924f08e13960",
+      "checked": "2026-10-15",
+      "extraction": "Rendered directly from the cited author PDF at the recorded page, cropped to the complete figure. Caption text is supplied separately for the page. No labels or graphical content were changed.",
+      "render_dpi": 600,
+      "crop_pdf_points": [
+        50,
+        65,
+        305,
+        220
+      ],
+      "caption": {
+        "zh": "Flow-HOA 训练与推理流程：利用联合损失学习向量场，再生成 FIR 编码滤波器。",
+        "en": "Flow-HOA training and inference: a vector field learned with joint losses refines a physics-informed prior into FIR encoding filters."
+      },
+      "source_caption_excerpt": "Overview of Flow-HOA: The training phase learns a vector field from joint loss gradients;",
+      "source_version": "2606.04570v1",
+      "paper": "flow-hoa",
+      "label": {
+        "zh": "Flow-HOA 训练与推理流程：利用联合损失学习向量场，再生成 FIR 编码滤波器。",
+        "en": "Flow-HOA training and inference: a vector field learned with joint losses refines a physics-informed prior into FIR encoding filters."
+      },
+      "source": "https://arxiv.org/pdf/2606.04570v1",
+      "venue": "AES Europe"
+    },
+    {
+      "paper_id": "shb-ae",
+      "title": "Spherical harmonic beamforming based Ambisonics encoding and upscaling method for smartphone microphone array",
+      "image": "/assets/paper-figures/shb-ae.webp",
+      "width": 1932,
+      "height": 1931,
+      "figure_number": 1,
+      "source_pdf": "https://arxiv.org/pdf/2606.04584v1",
+      "source_page": 4,
+      "source_pdf_sha256": "019ce3f9e647d9162d129ca4460916bb761c4e7aa37138cd46e7104633766baa",
+      "image_sha256": "ff990eed4131d80db9f886f2a16dcfed231bd01b6ebb2f060971a938cce61aab",
+      "checked": "2026-10-15",
+      "extraction": "Rendered directly from the cited author PDF at the recorded page, cropped to the complete figure. Caption text is supplied separately for the page. No labels or graphical content were changed.",
+      "render_dpi": 680,
+      "crop_pdf_points": [
+        50,
+        75,
+        305,
+        300
+      ],
+      "caption": {
+        "zh": "SHB-AE 使用的手机麦克风阵列及四个麦克风的位置。",
+        "en": "The smartphone microphone array used in SHB-AE, showing the positions of its four microphones."
+      },
+      "source_caption_excerpt": "Microphone Array Configurations of the SPMA utilized.",
+      "source_version": "2606.04584v1",
+      "paper": "shb-ae",
+      "label": {
+        "zh": "SHB-AE 使用的手机麦克风阵列及四个麦克风的位置。",
+        "en": "The smartphone microphone array used in SHB-AE, showing the positions of its four microphones."
+      },
+      "source": "https://arxiv.org/pdf/2606.04584v1",
+      "venue": "AES Convention"
+    },
+    {
+      "paper_id": "crossmamba",
+      "title": "Cross-attention Inspired Selective State Space Models for Target Sound Extraction",
+      "image": "/assets/paper-figures/crossmamba.webp",
+      "width": 1947,
+      "height": 2531,
+      "figure_number": 2,
+      "source_pdf": "https://arxiv.org/pdf/2409.04803v5",
+      "source_page": 4,
+      "source_pdf_sha256": "ba2a5eb2b852e01dc0f5e50591e466b904f42e6944428122c0bc0f2350b6a492",
+      "image_sha256": "c9e9083d883f8dbf5043625f5e8033115252b52fe08ef8a12ae3ab3e1f088f2e",
+      "checked": "2026-10-15",
+      "extraction": "Rendered directly from the cited author PDF at the recorded page, cropped to the complete figure. Caption text is supplied separately for the page. No labels or graphical content were changed.",
+      "render_dpi": 1140,
+      "crop_pdf_points": [
+        98,
+        47,
+        224,
+        208
+      ],
+      "caption": {
+        "zh": "CrossMamba 在 Waveformer 中融合目标类别线索与混合音频的结构。",
+        "en": "The CrossMamba-based Waveformer architecture combines target-class clues with the audio mixture."
+      },
+      "source_caption_excerpt": "The structure of CrossMamba based Waveformer.",
+      "code": "https://github.com/WuDH2000/CrossMamba",
+      "source_version": "2409.04803v5",
+      "paper": "crossmamba",
+      "label": {
+        "zh": "CrossMamba 在 Waveformer 中融合目标类别线索与混合音频的结构。",
+        "en": "The CrossMamba-based Waveformer architecture combines target-class clues with the audio mixture."
+      },
+      "source": "https://arxiv.org/pdf/2409.04803v5",
+      "venue": "ICASSP"
+    },
+    {
+      "paper_id": "trajectories",
+      "title": "Leveraging Sound Source Trajectories for Universal Sound Separation",
+      "image": "/assets/paper-figures/trajectories.webp",
+      "width": 2155,
+      "height": 1047,
+      "figure_number": 2,
+      "source_pdf": "https://arxiv.org/pdf/2409.04843v3",
+      "source_page": 4,
+      "source_pdf_sha256": "64a57480cc4c916f7c9171f50d0b14c69a3307ed6ba227f4c8706cd8f31f0753",
+      "image_sha256": "c2fbc3ccf0ab9797949abcaed254439eefb57e29c42c03be71078e224eb62e7e",
+      "checked": "2026-10-15",
+      "extraction": "Rendered directly from the cited author PDF at the recorded page, cropped to the complete figure. Caption text is supplied separately for the page. No labels or graphical content were changed.",
+      "render_dpi": 300,
+      "crop_pdf_points": [
+        47,
+        195,
+        565,
+        451
+      ],
+      "caption": {
+        "zh": "移动声源分离的三个阶段：初始跟踪、分离与跟踪的相互改进，以及神经波束形成。",
+        "en": "The three stages of the moving-source separation method: initial tracking, mutual refinement of tracking and separation, and neural beamforming."
+      },
+      "source_caption_excerpt": "The schematic diagram of each stage.",
+      "code": "https://github.com/WuDH2000/MFTS",
+      "source_version": "2409.04843v3",
+      "paper": "trajectories",
+      "label": {
+        "zh": "移动声源分离的三个阶段：初始跟踪、分离与跟踪的相互改进，以及神经波束形成。",
+        "en": "The three stages of the moving-source separation method: initial tracking, mutual refinement of tracking and separation, and neural beamforming."
+      },
+      "source": "https://arxiv.org/pdf/2409.04843v3",
+      "venue": "ICASSP"
+    },
+    {
+      "paper_id": "ta-v2a",
+      "title": "TA-V2A: Textually Assisted Video-to-Audio Generation",
+      "image": "/assets/paper-figures/ta-v2a.webp",
+      "width": 2161,
+      "height": 803,
+      "figure_number": 1,
+      "source_pdf": "https://arxiv.org/pdf/2503.10700v1",
+      "source_page": 2,
+      "source_pdf_sha256": "76d3f0ed55051c268161f3aea47637fe10ec28b1e929019518ec1251242ead9d",
+      "image_sha256": "d2c49adb85d69b393a38f8579318815833eb7a854c4980725ddf6546398585dc",
+      "checked": "2026-10-15",
+      "extraction": "Rendered directly from the cited author PDF at the recorded page, cropped to the complete figure. Caption text is supplied separately for the page. No labels or graphical content were changed.",
+      "render_dpi": 300,
+      "crop_pdf_points": [
+        47,
+        45,
+        566,
+        238
+      ],
+      "caption": {
+        "zh": "TA-V2A 生成流程：对齐视频、音频和文本特征，通过潜在扩散模型生成音频。",
+        "en": "TA-V2A aligns video, audio and text features and conditions a latent diffusion model to generate audio."
+      },
+      "source_caption_excerpt": "The complete workflow of the TA-V2A generation system.",
+      "source_version": "2503.10700v1",
+      "paper": "ta-v2a",
+      "label": {
+        "zh": "TA-V2A 生成流程：对齐视频、音频和文本特征，通过潜在扩散模型生成音频。",
+        "en": "TA-V2A aligns video, audio and text features and conditions a latent diffusion model to generate audio."
+      },
+      "source": "https://arxiv.org/pdf/2503.10700v1",
+      "venue": "ICASSP"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/sbryngelson/academic-website-template",
+  "branch": "source",
+  "commit": "157ec4089412e14c0c241f15b09632caadec6198",
+  "source_url": "https://github.com/sbryngelson/academic-website-template",
+  "adaptation": "SASS, fonts, icons and page layout reused; bilingual lab content is rendered by the local Node generator."
+}

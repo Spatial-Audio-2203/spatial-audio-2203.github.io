@@ -1,0 +1,485 @@
+{
+  "checked": "2026-10-16",
+  "summary": {
+    "ieeeLinks": 30,
+    "papers": 107,
+    "publicationMetadataUnchanged": true,
+    "pdfRecordsUnchanged": true
+  },
+  "records": [
+    {
+      "id": "qu-8520e1d2fd",
+      "doi": "10.1109/icassp55912.2026.11464467",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp55912.2026.11464467",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/11464467",
+      "title": "An Envelope Separation Aided Multi-Task Learning Model for Blind Source Counting and Localization",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/11464467/"
+      }
+    },
+    {
+      "id": "qu-a07b08acaa",
+      "doi": "10.1109/icassp55912.2026.11461391",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp55912.2026.11461391",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/11461391",
+      "title": "A Learning-Based Automotive Sound Field Reproduction Method Using Plane-Wave Decomposition and Multi-Position Constraint",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/11461391/"
+      }
+    },
+    {
+      "id": "doi-6a92e53eba",
+      "doi": "10.1109/nems69704.2026.11633751",
+      "source": "https://api.crossref.org/works/10.1109%2Fnems69704.2026.11633751",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/11633751",
+      "title": "Piezoelectric Acoustic Surfaces for Sound Localization",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/11633751/"
+      }
+    },
+    {
+      "id": "crossmamba",
+      "doi": "10.1109/icassp49660.2025.10890178",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp49660.2025.10890178",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/10890178",
+      "title": "Cross-attention Inspired Selective State Space Models for Target Sound Extraction",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/10890178/"
+      }
+    },
+    {
+      "id": "ta-v2a",
+      "doi": "10.1109/icassp49660.2025.10887573",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp49660.2025.10887573",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/10887573",
+      "title": "TA-V2A: Textually Assisted Video-to-Audio Generation",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/10887573/"
+      }
+    },
+    {
+      "id": "trajectories",
+      "doi": "10.1109/taslpro.2025.3577352",
+      "source": "https://api.crossref.org/works/10.1109%2Ftaslpro.2025.3577352",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/11027436",
+      "title": "Leveraging Sound Source Trajectories for Universal Sound Separation",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/11027436/"
+      }
+    },
+    {
+      "id": "qu-4ee662a74a",
+      "doi": "10.1109/icassp48485.2024.10446791",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp48485.2024.10446791",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/10446791",
+      "title": "A Hybrid Deep-Online Learning Based Method for Active Noise Control in Wave Domain",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/10446791/"
+      }
+    },
+    {
+      "id": "qu-ee153e0ffd",
+      "doi": "10.1109/icicsp59554.2023.10390682",
+      "source": "https://api.crossref.org/works/10.1109%2Ficicsp59554.2023.10390682",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/10390682",
+      "title": "Sound Event Localization and Detection Based on Iterative Separation in Embedding Space",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/10390682/"
+      }
+    },
+    {
+      "id": "qu-7e0d1cbfe2",
+      "doi": "10.1109/icassp49357.2023.10094775",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp49357.2023.10094775",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/10094775",
+      "title": "TT-Net: Dual-Path Transformer Based Sound Field Translation in the Spherical Harmonic Domain",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/10094775/"
+      }
+    },
+    {
+      "id": "qu-353d5ce740",
+      "doi": "10.1109/icicsp55539.2022.10050619",
+      "source": "https://api.crossref.org/works/10.1109%2Ficicsp55539.2022.10050619",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/10050619",
+      "title": "A Multi-channel Speech Separation System for Unknown Number of Multiple Speakers",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/10050619/"
+      }
+    },
+    {
+      "id": "qu-0b6c80e0a5",
+      "doi": "10.1109/taslp.2022.3153266",
+      "source": "https://api.crossref.org/works/10.1109%2Ftaslp.2022.3153266",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/9721123",
+      "title": "Sparse DNN Model for Frequency Expanding of Higher Order Ambisonics Encoding Process",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/9721123/"
+      }
+    },
+    {
+      "id": "qu-ae48a7de0f",
+      "doi": "10.1109/icicsp54369.2021.9611883",
+      "source": "https://api.crossref.org/works/10.1109%2Ficicsp54369.2021.9611883",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/9611883",
+      "title": "Early Reflections Based Speech Enhancement",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/9611883/"
+      }
+    },
+    {
+      "id": "qu-e781f20784",
+      "doi": "10.1109/taslp.2021.3068002",
+      "source": "https://api.crossref.org/works/10.1109%2Ftaslp.2021.3068002",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/9384223",
+      "title": "Partially Matching Projection Decoding Method Evaluation Under Different Playback Conditions",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/9384223/"
+      }
+    },
+    {
+      "id": "qu-a45184b0e4",
+      "doi": "10.1109/icicsp50920.2020.9232079",
+      "source": "https://api.crossref.org/works/10.1109%2Ficicsp50920.2020.9232079",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/9232079",
+      "title": "Anti Spatial Aliasing HOA Encoding Method based on Aliasing Projection Matrix",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/9232079/"
+      }
+    },
+    {
+      "id": "qu-0f2b676bda",
+      "doi": "10.1109/icicsp50920.2020.9232117",
+      "source": "https://api.crossref.org/works/10.1109%2Ficicsp50920.2020.9232117",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/9232117",
+      "title": "A Time-domain Unsupervised Learning Based Sound Source Localization Method",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/9232117/"
+      }
+    },
+    {
+      "id": "qu-1e46a3032b",
+      "doi": "10.1109/icassp40776.2020.9052928",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp40776.2020.9052928",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/9052928",
+      "title": "Individual Distance-Dependent HRTFS Modeling Through A Few Anthropometric Measurements",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/9052928/"
+      }
+    },
+    {
+      "id": "qu-30fa2c4be9",
+      "doi": "10.1109/taslp.2020.2967539",
+      "source": "https://api.crossref.org/works/10.1109%2Ftaslp.2020.2967539",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/8962233",
+      "title": "Modeling of Individual HRTFs Based on Spatial Principal Component Analysis",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/8962233/"
+      }
+    },
+    {
+      "id": "qu-e163657126",
+      "doi": "10.1109/icicsp48821.2019.8958569",
+      "source": "https://api.crossref.org/works/10.1109%2Ficicsp48821.2019.8958569",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/8958569",
+      "title": "Eigen Beam Based Sound Source Localization Algorithms Evaluation on a Non-Spherical Microphone Array",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/8958569/"
+      }
+    },
+    {
+      "id": "qu-fde7fb851d",
+      "doi": "10.1109/icicsp48821.2019.8958496",
+      "source": "https://api.crossref.org/works/10.1109%2Ficicsp48821.2019.8958496",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/8958496",
+      "title": "A Time-domain End-to-End Method for Sound Source Localization Using Multi-Task Learning",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/8958496/"
+      }
+    },
+    {
+      "id": "qu-ef735544c9",
+      "doi": "10.1109/icassp.2019.8683756",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp.2019.8683756",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/8683756",
+      "title": "Distance-dependent Modeling of Head-related Transfer Functions",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/8683756/"
+      }
+    },
+    {
+      "id": "qu-5537a9056a",
+      "doi": "10.1109/icassp.2019.8683105",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp.2019.8683105",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/8683105",
+      "title": "Improvements to the Matching Projection Decoding Method for Ambisonic System with Irregular Loudspeaker Layouts",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/8683105/"
+      }
+    },
+    {
+      "id": "doi-8a6a054205",
+      "doi": "10.1109/icsidp47821.2019.9173118",
+      "source": "https://api.crossref.org/works/10.1109%2Ficsidp47821.2019.9173118",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/9173118",
+      "title": "Beamforming and Deep Models Integrated Multi-talker Speech Separation",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/9173118/"
+      }
+    },
+    {
+      "id": "qu-b4d8151910",
+      "doi": "10.1109/icassp.2018.8461515",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp.2018.8461515",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/8461515",
+      "title": "Matching Projection Decoding Method for Ambisonics System",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/8461515/"
+      }
+    },
+    {
+      "id": "doi-e7acb833e4",
+      "doi": "10.1109/icdsp.2018.8631636",
+      "source": "https://api.crossref.org/works/10.1109%2Ficdsp.2018.8631636",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/8631636",
+      "title": "A Modified Frequency Weighted MUSIC Algorithm for Multiple Sound Sources Localization",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "https://ieeexplore.ieee.org/document/8631636/"
+      }
+    },
+    {
+      "id": "qu-806e2e2aa9",
+      "doi": "10.1109/icalip.2016.7846596",
+      "source": "https://api.crossref.org/works/10.1109%2Ficalip.2016.7846596",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/7846596",
+      "title": "An accurate decorrelation method for parametric stereo coding",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "http://ieeexplore.ieee.org/document/7846596/"
+      }
+    },
+    {
+      "id": "qu-dcfe795a14",
+      "doi": "10.1109/icalip.2016.7846594",
+      "source": "https://api.crossref.org/works/10.1109%2Ficalip.2016.7846594",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/7846594",
+      "title": "An environment adaptive loudspeaker calibration method for Ambisonics decoding system",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "http://ieeexplore.ieee.org/document/7846594/"
+      }
+    },
+    {
+      "id": "qu-4d69c00a1e",
+      "doi": "10.1109/icassp.2013.6637708",
+      "source": "https://api.crossref.org/works/10.1109%2Ficassp.2013.6637708",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/6637708",
+      "title": "Audio lossless coding/decoding method using basis pursuit algorithm",
+      "publisher": "IEEE",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "http://ieeexplore.ieee.org/document/6637708/"
+      }
+    },
+    {
+      "id": "qu-9276816fe6",
+      "doi": "10.1109/tasl.2009.2020532",
+      "source": "https://api.crossref.org/works/10.1109%2Ftasl.2009.2020532",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "ieee": "https://ieeexplore.ieee.org/document/5109764",
+      "title": "Distance-Dependent Head-Related Transfer Functions Measured With High Spatial Resolution Using a Spark Gap",
+      "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+      "verification": {
+        "method": "Crossref publisher-deposited primary resource URL, matching DOI and title",
+        "httpStatus": 200,
+        "titleSimilarity": 1.0,
+        "originalPrimaryUrl": "http://ieeexplore.ieee.org/document/5109764/"
+      }
+    },
+    {
+      "id": "qu-08f982abd6",
+      "ieee": "https://ieeexplore.ieee.org/document/10129800",
+      "title": "A Physical Model-Based Self-Supervised Learning Method for Signal Enhancement Under Reverberant Environment",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:RGFaLdJalmkC",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "verification": {
+        "method": "Previously retrieved Google Scholar citation detail with matching paper title and IEEE article link",
+        "sourceChecked": "2026-10-15",
+        "originalArticleUrl": "https://ieeexplore.ieee.org/abstract/document/10129800/"
+      }
+    },
+    {
+      "id": "qu-829637e3b1",
+      "ieee": "https://ieeexplore.ieee.org/document/4590089",
+      "title": "Distance dependent head-related transfer function database of KEMAR",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:d1gkVwhDpl0C",
+      "checked": "2026-10-16",
+      "status": "verified",
+      "verification": {
+        "method": "Previously retrieved Google Scholar citation detail with matching paper title and IEEE article link",
+        "sourceChecked": "2026-10-15",
+        "originalArticleUrl": "https://ieeexplore.ieee.org/abstract/document/4590089/"
+      }
+    }
+  ]
+}

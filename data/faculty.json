@@ -1,0 +1,40 @@
+{
+  "checked": "2026-10-15",
+  "courseCorrection": {"date": "2026-10-15", "source": "User-provided correction in this conversation", "graduateCourse": {"zh": "空间听觉与音频、音乐处理", "en": "Spatial Hearing and Audio/Music Processing"}},
+  "intro": {
+    "zh": "曲天书是北京大学智能学院副教授，同时在北京大学国家生物医学成像科学中心开展研究。他的研究领域包括空间听觉、虚拟声音、三维音频场景分析和多通道音频编码。",
+    "en": "Tianshu Qu is an Associate Professor at the School of Intelligence Science and Technology, Peking University, with an additional affiliation at PKU's National Biomedical Imaging Center. His research covers spatial hearing, virtual sound, 3D audio scene analysis and multichannel audio coding."
+  },
+  "homeBackground": {
+    "zh": "2002年获吉林大学通信与信息系统专业博士学位，随后在北京大学从事博士后研究。2004年起在北大任教，2011—2012年赴密歇根州立大学访学。",
+    "en": "He received his PhD in Communication and Information Systems from Jilin University in 2002 and completed postdoctoral research at PKU. He joined the PKU faculty in 2004 and visited Michigan State University in 2011–2012."
+  },
+  "teachingIntro": {
+    "zh": "讲授《信号与系统》《机器感知实验》和研究生课程《空间听觉与音频、音乐处理》。",
+    "en": "He teaches Signals and Systems, Machine Perception Laboratory, and the graduate course Spatial Hearing and Audio/Music Processing."
+  },
+  "positions": [
+    {"dates":{"zh":"2021.11—至今","en":"Nov 2021–present"},"text":{"zh":"北京大学智能学院，副教授","en":"Associate Professor, School of Intelligence Science and Technology, Peking University"}},
+    {"dates":{"zh":"2010.08—2021.10","en":"Aug 2010–Oct 2021"},"text":{"zh":"北京大学信息科学技术学院，副教授","en":"Associate Professor, School of Electronics Engineering and Computer Science, Peking University"}},
+    {"dates":{"zh":"2004.10—2010.07","en":"Oct 2004–Jul 2010"},"text":{"zh":"北京大学信息科学技术学院，讲师","en":"Lecturer, School of Electronics Engineering and Computer Science, Peking University"}},
+    {"dates":{"zh":"2002.09—2004.09","en":"Sep 2002–Sep 2004"},"text":{"zh":"北京大学，博士后","en":"Postdoctoral researcher, Peking University"}}
+  ],
+  "education": [
+    {"dates":{"zh":"2002","en":"2002"},"text":{"zh":"吉林大学，通信与信息系统专业，博士","en":"PhD in Communication and Information Systems, Jilin University"}},
+    {"dates":{"zh":"1999","en":"1999"},"text":{"zh":"吉林工业大学，通信与信息系统专业，硕士","en":"Master's degree in Communication and Information Systems, Jilin University of Technology"}},
+    {"dates":{"zh":"1993","en":"1993"},"text":{"zh":"吉林工业大学，自动化系，学士","en":"Bachelor's degree in Automation, Jilin University of Technology"}}
+  ],
+  "visits": [
+    {"dates":{"zh":"2011.03—2012.03","en":"Mar 2011–Mar 2012"},"text":{"zh":"密歇根州立大学，访问学者","en":"Visiting scholar, Michigan State University"}}
+  ],
+  "courses": [
+    {"zh":"信号与系统（本科）","en":"Signals and Systems (undergraduate)"},
+    {"zh":"机器感知实验（本科）","en":"Machine Perception Laboratory (undergraduate)"},
+    {"zh":"空间听觉与音频、音乐处理（研究生）","en":"Spatial Hearing and Audio/Music Processing (graduate)"}
+  ],
+  "sources": [
+    "https://sai.pku.edu.cn/info/1479/2528.htm",
+    "https://www.ai.pku.edu.cn/info/1326/2868.htm",
+    "https://nbic.pku.edu.cn/rcdw/kyry/jzyjy/d5b0b96040d44195a5235f39f45f91fd.htm"
+  ]
+}

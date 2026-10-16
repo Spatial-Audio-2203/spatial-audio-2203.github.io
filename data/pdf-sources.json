@@ -1,0 +1,921 @@
+{
+  "checked": "2026-10-15",
+  "summary": {
+    "newPdfRecords": 42,
+    "newFullPapers": 37,
+    "newAbstractPdfs": 5,
+    "newNonArxivPdfs": 40,
+    "totalPdfRecords": 52,
+    "papers": 107,
+    "facultyCoverageUnchanged": true,
+    "publicationMetadataUnchanged": true
+  },
+  "records": [
+    {
+      "id": "qu-7e0d1cbfe2",
+      "pdf": "https://arxiv.org/pdf/2210.16849",
+      "source": "https://arxiv.org/abs/2210.16849",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "pdfMagicHeader": "%PDF-",
+        "pageCount": 5,
+        "bytes": 790280,
+        "sha256": "f3006fcfbe6592570fa644b466c1947987a489bd7541e2283d15fd7a12958160",
+        "titleMatched": true,
+        "authorsMatched": true
+      },
+      "host": "arxiv.org",
+      "arxiv": "2210.16849",
+      "checked": "2026-10-15",
+      "title": "TT-Net: Dual-Path Transformer Based Sound Field Translation in the Spherical Harmonic Domain",
+      "type": "conference"
+    },
+    {
+      "id": "qu-f628ebae2b",
+      "pdf": "https://hellojxt.github.io/DeepModal/ACMMM20_ModalSound.pdf",
+      "source": "https://hellojxt.github.io/DeepModal/",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "pdfMagicHeader": "%PDF-",
+        "pageCount": 9,
+        "bytes": 1927983,
+        "sha256": "b692a93c37ac643c04a4fa8a48d364128ef984dcd7cba6fe95cf105601075da9",
+        "titleMatched": true,
+        "authorsMatched": true
+      },
+      "host": "hellojxt.github.io",
+      "code": "https://github.com/hellojxt/NeuralSound",
+      "codeSource": "https://hellojxt.github.io/DeepModal/",
+      "codeVerification": "作者主页直接指向此库，GitHub API README已核对；只声称包含DeepModal的部分实现，不声称独立完整DeepModal代码。",
+      "checked": "2026-10-15",
+      "title": "Deep-Modal: Real-Time Impact Sound Synthesis for Arbitrary Shapes",
+      "type": "conference"
+    },
+    {
+      "id": "qu-850644a50c",
+      "pdf": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.692785/pdf",
+      "source": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.692785/full",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "pdfMagicHeader": "%PDF-",
+        "pageCount": 7,
+        "bytes": 861829,
+        "sha256": "18849bb18559792035d75fa8e331cb25c6073bc7df1a0dac6d356e36ece5be5c",
+        "titleMatched": true,
+        "authorsMatched": true
+      },
+      "host": "www.frontiersin.org",
+      "checked": "2026-10-15",
+      "title": "Sensitivity to a Break in Interaural Correlation in Frequency-Gliding Noises",
+      "type": "journal"
+    },
+    {
+      "id": "qu-c60937e73c",
+      "pdf": "https://www.isca-archive.org/interspeech_2020/peng20_interspeech.pdf",
+      "source": "https://www.isca-archive.org/interspeech_2020/peng20_interspeech.html",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "pdfMagicHeader": "%PDF-",
+        "pageCount": 5,
+        "bytes": 1873000,
+        "sha256": "b6cc81d7dc1e9e084d04f014da162898d46da6dc5e755161a54cf78da938437f",
+        "titleMatched": true,
+        "authorsMatched": true
+      },
+      "host": "www.isca-archive.org",
+      "checked": "2026-10-15",
+      "title": "Competing Speaker Count Estimation on the Fusion of the Spectral and Spatial Embedding Space",
+      "type": "conference"
+    },
+    {
+      "id": "qu-30fa2c4be9",
+      "pdf": "https://arxiv.org/pdf/1910.09484",
+      "source": "https://arxiv.org/abs/1910.09484",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "pdfMagicHeader": "%PDF-",
+        "pageCount": 13,
+        "bytes": 2991072,
+        "sha256": "66d88c4b538db9f940d89f07244bf1b8a9640ba018edfbe446caf6a88a62f6f1",
+        "titleMatched": true,
+        "authorsMatched": true
+      },
+      "host": "arxiv.org",
+      "arxiv": "1910.09484",
+      "checked": "2026-10-15",
+      "title": "Modeling of Individual HRTFs Based on Spatial Principal Component Analysis",
+      "type": "journal"
+    },
+    {
+      "id": "qu-0b6c80e0a5",
+      "pdf": "https://www.researchgate.net/profile/Tianshu-Qu/publication/358837416_Sparse_DNN_model_for_Frequency_Expanding_of_Higher_Order_Ambisonics_Encoding_Process/links/6406fb665749505945708eb1/Sparse-DNN-Model-for-Frequency-Expanding-of-Higher-Order-Ambisonics-Encoding-Process.pdf",
+      "source": "https://www.researchgate.net/publication/358837416_Sparse_DNN_model_for_Frequency_Expanding_of_Higher_Order_Ambisonics_Encoding_Process",
+      "verification": {
+        "contentType": "application/pdf",
+        "pageCount": 12,
+        "titleMatched": true,
+        "authorsMatched": true,
+        "sourceUploader": "Tianshu Qu",
+        "method": "web PDF parser",
+        "status": "verified with web PDF parser; raw local request blocked",
+        "rawLocalHttpStatus": 403
+      },
+      "checked": "2026-10-15",
+      "title": "Sparse DNN Model for Frequency Expanding of Higher Order Ambisonics Encoding Process",
+      "type": "journal"
+    },
+    {
+      "id": "qu-ae48a7de0f",
+      "pdf": "https://www.researchgate.net/profile/Tianshu-Qu/publication/356545691_Early_Reflections_Based_Speech_Enhancement/links/6406fbc70cf1030a567d550a/Early-Reflections-Based-Speech-Enhancement.pdf",
+      "source": "https://www.researchgate.net/publication/356545691_Early_Reflections_Based_Speech_Enhancement",
+      "verification": {
+        "contentType": "application/pdf",
+        "pageCount": 6,
+        "titleMatched": true,
+        "authorsMatched": true,
+        "sourceUploader": "Tianshu Qu",
+        "method": "web PDF parser",
+        "status": "verified with web PDF parser; raw local request blocked",
+        "rawLocalHttpStatus": 403
+      },
+      "checked": "2026-10-15",
+      "title": "Early Reflections Based Speech Enhancement",
+      "type": "conference"
+    },
+    {
+      "id": "qu-1e46a3032b",
+      "pdf": "https://www.researchgate.net/profile/Tianshu-Qu/publication/341083417_Individual_Distance-Dependent_HRTFS_Modeling_Through_A_Few_Anthropometric_Measurements/links/5f05d2b8299bf188160a5c4d/Individual-Distance-Dependent-HRTFS-Modeling-Through-A-Few-Anthropometric-Measurements.pdf",
+      "source": "https://www.researchgate.net/publication/341083417_Individual_Distance-Dependent_HRTFS_Modeling_Through_A_Few_Anthropometric_Measurements",
+      "verification": {
+        "contentType": "application/pdf",
+        "pageCount": 5,
+        "titleMatched": true,
+        "authorsMatched": true,
+        "sourceUploader": "Tianshu Qu",
+        "method": "web PDF parser",
+        "status": "verified with web PDF parser; raw local request blocked",
+        "rawLocalHttpStatus": 403
+      },
+      "checked": "2026-10-15",
+      "title": "Individual Distance-Dependent HRTFS Modeling Through A Few Anthropometric Measurements",
+      "type": "conference"
+    },
+    {
+      "id": "qu-ef735544c9",
+      "pdf": "https://hpc.pku.edu.cn/docs/pdf/a20200915276.pdf",
+      "source": "https://hpc.pku.edu.cn/achievement_3.html",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 5,
+        "bytes": 344362,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "hpc.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Distance-dependent Modeling of Head-related Transfer Functions",
+      "type": "conference"
+    },
+    {
+      "id": "qu-5537a9056a",
+      "pdf": "https://hpc.pku.edu.cn/docs/pdf/a20200915275.pdf",
+      "source": "https://hpc.pku.edu.cn/achievement_3.html",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 5,
+        "bytes": 454856,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "hpc.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Improvements to the Matching Projection Decoding Method for Ambisonic System with Irregular Loudspeaker Layouts",
+      "type": "conference"
+    },
+    {
+      "id": "qu-54d3a07f93",
+      "pdf": "https://hpc.pku.edu.cn/docs/pdf/a20191230059.pdf",
+      "source": "https://hpc.pku.edu.cn/achievement_3.html",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 7,
+        "bytes": 349157,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "hpc.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "A Parametric Spatial Audio Coding Method Based on Convolutional Neural Networks",
+      "type": "conference"
+    },
+    {
+      "id": "qu-8986ed3516",
+      "pdf": "https://hpc.pku.edu.cn/docs/pdf/a20191230060.pdf",
+      "source": "https://hpc.pku.edu.cn/achievement_3.html",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 8,
+        "bytes": 190427,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "hpc.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Subjective Evaluation of Virtual Room Auralization System Based on the Ambisonics Matching Projection Decoding Method",
+      "type": "conference"
+    },
+    {
+      "id": "qu-6a02c189ff",
+      "pdf": "https://hpc.pku.edu.cn/docs/pdf/a20191230057.pdf",
+      "source": "https://hpc.pku.edu.cn/achievement_3.html",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 8,
+        "bytes": 795378,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "hpc.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Bandwidth Extension Method Based on Generative Adversarial Nets for Audio Compression.",
+      "type": "conference"
+    },
+    {
+      "id": "qu-865b8ea05f",
+      "pdf": "https://hpc.pku.edu.cn/docs/pdf/a20191230058.pdf",
+      "source": "https://hpc.pku.edu.cn/achievement_3.html",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 6,
+        "bytes": 753219,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "hpc.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "High order Ambisonics encoding method using differential microphone array",
+      "type": "conference"
+    },
+    {
+      "id": "qu-b4d8151910",
+      "pdf": "https://hpc.pku.edu.cn/docs/pdf/a20191230056.pdf",
+      "source": "https://hpc.pku.edu.cn/achievement_3.html",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 5,
+        "bytes": 343722,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "hpc.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Matching Projection Decoding Method for Ambisonics System",
+      "type": "conference"
+    },
+    {
+      "id": "doi-6df25cf567",
+      "pdf": "https://psy.pku.edu.cn/docs/20180528092607427014.pdf",
+      "source": "https://doi.org/10.3758/s13414-018-1489-8",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 13,
+        "bytes": 1159477,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "psy.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Emotionally conditioning the target-speech voice enhances recognition of the target speech under “cocktail-party” listening conditions",
+      "type": "journal"
+    },
+    {
+      "id": "qu-cfe97db055",
+      "pdf": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2017.00034/pdf",
+      "source": "https://doi.org/10.3389/fnhum.2017.00034",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 10,
+        "bytes": 1625953,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "www.frontiersin.org",
+      "checked": "2026-10-15",
+      "title": "Selective Attention Enhances Beta-Band Cortical Oscillation to Speech under “Cocktail-Party” Listening Conditions",
+      "type": "journal"
+    },
+    {
+      "id": "qu-1420ebf58a",
+      "pdf": "http://www.ica2016.org.ar/ica2016proceedings/ica2016/ICA2016-0342.pdf",
+      "source": "https://ica2016.org.ar/wp-content/uploads/Programme-ICA2016.pdf",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 8,
+        "bytes": 384781,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "www.ica2016.org.ar",
+      "checked": "2026-10-15",
+      "title": "An asynchronous HRTF measurement method based on phase alignment",
+      "type": "conference"
+    },
+    {
+      "id": "qu-77ae973a0c",
+      "pdf": "http://www.ica2016.org.ar/ica2016proceedings/ica2016/ICA2016-0125.pdf",
+      "source": "https://ica2016.org.ar/wp-content/uploads/Programme-ICA2016.pdf",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 9,
+        "bytes": 524693,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "www.ica2016.org.ar",
+      "checked": "2026-10-15",
+      "title": "Inter-channel transfer function based parametric stereo coding system",
+      "type": "conference"
+    },
+    {
+      "id": "qu-2ae61c0157",
+      "pdf": "http://www.ica2016.org.ar/ica2016proceedings/ica2016/ICA2016-0352.pdf",
+      "source": "https://ica2016.org.ar/wp-content/uploads/Programme-ICA2016.pdf",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 8,
+        "bytes": 270480,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "www.ica2016.org.ar",
+      "checked": "2026-10-15",
+      "title": "A sound source localization algorithm using microphone array with rigid body",
+      "type": "conference"
+    },
+    {
+      "id": "qu-e533a1116f",
+      "pdf": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0126342&type=printable",
+      "source": "https://doi.org/10.1371/journal.pone.0126342",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 11,
+        "bytes": 389862,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "journals.plos.org",
+      "checked": "2026-10-15",
+      "title": "Similar Impacts of the Interaural Delay and Interaural Correlation on Binaural Gap Detection",
+      "type": "journal"
+    },
+    {
+      "id": "qu-4022a05ec1",
+      "pdf": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2014051200001.pdf",
+      "source": "https://psy.pku.edu.cn/english/people/faculty/professor/liangli/index.htm",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 8,
+        "bytes": 1385712,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "psy.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Perceived location specificity in perceptual separation-induced but not fear conditioning-induced enhancement of prepulse inhibition in rats",
+      "type": "journal"
+    },
+    {
+      "id": "qu-645a0bb11d",
+      "pdf": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2015082500005.pdf",
+      "source": "https://psy.pku.edu.cn/english/people/faculty/professor/liangli/index.htm",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 8,
+        "bytes": 343326,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "psy.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Voice-associated static face image releases speech from informational masking",
+      "type": "journal"
+    },
+    {
+      "id": "qu-4c8872b7fd",
+      "pdf": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2013051500001.pdf",
+      "source": "https://www.psy.pku.edu.cn/english/people/faculty/professor/liangli/index.htm",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 8,
+        "bytes": 667520,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "psy.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Aging Effects on Detection of Spectral Changes Induced by a Break in Sound Correlation",
+      "type": "journal"
+    },
+    {
+      "id": "qu-4d337d791d",
+      "pdf": "https://acousticalsociety.org/wp-content/uploads/2018/03/hkfullweek.pdf#page=64",
+      "source": "https://doi.org/10.1121/1.4708220",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 309,
+        "bytes": 2263862,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 64
+      },
+      "host": "acousticalsociety.org",
+      "checked": "2026-10-15",
+      "title": "Detection of spectral changes induced by a break in sound correlation in younger adults and older adults",
+      "type": "abstract"
+    },
+    {
+      "id": "qu-536a8dee15",
+      "pdf": "https://acousticalsociety.org/wp-content/uploads/2018/03/hkfullweek.pdf#page=63",
+      "source": "http://scholar.pku.edu.cn/qutianshu/publications/using-low-frequency-threshold-interaural-time-differences-test-models",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 309,
+        "bytes": 2263862,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 63
+      },
+      "host": "acousticalsociety.org",
+      "checked": "2026-10-15",
+      "title": "Using low-frequency threshold interaural time differences to test models of binaural hearing",
+      "type": "abstract"
+    },
+    {
+      "id": "qu-750bc2e39c",
+      "pdf": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2011012500001.pdf",
+      "source": "https://www.psy.pku.edu.cn/english/people/faculty/professor/liangli/index.htm",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 12,
+        "bytes": 954552,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "psy.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Perceptual Fusion Tendency of Speech Sounds",
+      "type": "journal"
+    },
+    {
+      "id": "qu-dcd58dbaca",
+      "pdf": "https://dael.euracoustics.org/confs/acoustics2008/data/articles/001120.pdf",
+      "source": "https://doi.org/10.1121/1.2933807",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 1,
+        "bytes": 38587,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "dael.euracoustics.org",
+      "checked": "2026-10-15",
+      "title": "Frequency importance function of Mandarin Chinese speech",
+      "type": "abstract"
+    },
+    {
+      "id": "qu-4d05b149d3",
+      "pdf": "https://psy.pku.edu.cn/static/main/uploads/faculty/li_liang/2009052800009.pdf",
+      "source": "https://www.psy.pku.edu.cn/english/people/faculty/professor/liangli/index.htm",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 16,
+        "bytes": 592497,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 1
+      },
+      "host": "psy.pku.edu.cn",
+      "checked": "2026-10-15",
+      "title": "Perceptual integration between target speech and target-speech reflection reduces masking for target-speech recognition in younger adults and older adults",
+      "type": "journal"
+    },
+    {
+      "id": "qu-79737d07ac",
+      "pdf": "https://backend.orbit.dtu.dk/ws/portalfiles/portal/4447151/Vestergaard.pdf#page=36",
+      "source": "https://doi.org/10.1121/1.4785964",
+      "verification": {
+        "status": "verified",
+        "httpStatus": 200,
+        "pdfMagic": "%PDF-",
+        "pageCount": 42,
+        "bytes": 444095,
+        "titleAndAuthorsChecked": true,
+        "matchedPdfPage": 36
+      },
+      "host": "backend.orbit.dtu.dk",
+      "checked": "2026-10-15",
+      "title": "Simulated phase-locking stimulation: An improved signal processing strategy for cochlear implant",
+      "type": "abstract"
+    },
+    {
+      "id": "qu-3f2a8b8319",
+      "pdf": "https://konoyo-014.github.io/files/JAES_SHBAE_After_Rebuttal3.pdf",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:b0M2c_1WBrUC",
+      "verification": {
+        "method": "Ordinary HTTPS GET, verify %PDF- file header, parse full PDF with pypdf, inspect first-page title and author list.",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "bytes": 2508283,
+        "sha256": "df3e61d45e16a6329ee4af8e37ce672ef85f304497fd2878e9a78656158517fa",
+        "pages": 13,
+        "titleMatch": true,
+        "authorMatch": true,
+        "pdfFile": "qu-3f2a8b8319.pdf",
+        "extractedTextFile": "qu-3f2a8b8319.txt"
+      },
+      "notes": "First page marked DRAFT; footer says Submitted to J. Audio Eng. Soc., 2025 August 1. Author manuscript, not publisher final PDF.",
+      "pdfKind": "author-manuscript",
+      "checked": "2026-10-15",
+      "title": "Spherical Harmonic Beamforming–Based Ambisonics Encoding Method in Frequency and Time Domain",
+      "type": "journal",
+      "host": "konoyo-014.github.io",
+      "round": 2
+    },
+    {
+      "id": "qu-ee153e0ffd",
+      "pdf": "https://drive.usercontent.google.com/uc?id=1sP5QGuK8riaz6X--Z1bpinETv-EfpVqb&export=download",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:35N4QoGY0k4C",
+      "verification": {
+        "method": "Ordinary HTTPS GET, verify %PDF- file header, parse full PDF with pypdf, inspect first-page title and author list.",
+        "httpStatus": 200,
+        "contentType": "application/octet-stream",
+        "bytes": 506170,
+        "sha256": "a3de3670665526e24e5c707544b8be12681d0f18a966fc4d3cad454bc8512c45",
+        "pages": 5,
+        "titleMatch": true,
+        "authorMatch": true,
+        "pdfFile": "qu-ee153e0ffd.pdf",
+        "extractedTextFile": "qu-ee153e0ffd.txt"
+      },
+      "notes": "Official Scholar PDF link points to public Google Drive view page. The view page itself contains this download URL. Actual PDF downloaded without login; final redirect is drive.usercontent.google.com/download with same id/export parameters.",
+      "pdfKind": "author-copy",
+      "checked": "2026-10-15",
+      "title": "Sound Event Localization and Detection Based on Iterative Separation in Embedding Space",
+      "type": "conference",
+      "host": "drive.usercontent.google.com",
+      "round": 2
+    },
+    {
+      "id": "qu-23bd7f352d",
+      "pdf": "https://www.researchgate.net/profile/Lei-Liu-143/publication/354860172_Binaural_processing_deficit_and_cognitive_impairment_in_Alzheimer%27s_disease/links/6151aa52d2ebba7be74e843e/Binaural-processing-deficit-and-cognitive-impairment-in-Alzheimers-disease.pdf",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:maZDTaKrznsC",
+      "verification": {
+        "method": "web.run opened the exact Google Scholar PDF target and parsed it as application/pdf. First-page title and authors match; DOI checked when printed.",
+        "contentType": "application/pdf",
+        "pages": 15,
+        "titleMatch": true,
+        "authorMatch": true,
+        "webEvidence": "turn114view0 lines 1–8",
+        "ordinaryGet": {
+          "status": 403,
+          "method": "Python urllib.request ordinary HTTPS GET"
+        }
+      },
+      "notes": "ResearchGate content is readable through web PDF reader, but ordinary HTTP access on this host can return 403. Link to author-uploaded remote PDF only; no local rehosting.",
+      "pdfKind": "author-upload",
+      "checked": "2026-10-15",
+      "title": "Binaural processing deficit and cognitive impairment in Alzheimer's disease",
+      "type": "journal",
+      "host": "www.researchgate.net",
+      "round": 2
+    },
+    {
+      "id": "doi-26d0a33d6f",
+      "pdf": "https://www.researchgate.net/profile/Zhemeng-Wu/publication/352111661_Differences_in_auditory_associative_memory_between_younger_adults_and_older_adults/links/60c13d4f299bf1949f447017/Differences-in-auditory-associative-memory-between-younger-adults-and-older-adults.pdf",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:k_IJM867U9cC",
+      "verification": {
+        "method": "web.run opened the exact Google Scholar PDF target and parsed it as application/pdf. First-page title and authors match; DOI checked when printed.",
+        "contentType": "application/pdf",
+        "pages": 22,
+        "titleMatch": true,
+        "authorMatch": true,
+        "webEvidence": "turn117view0 lines 5–13 and 17–25",
+        "ordinaryGet": {
+          "status": "not_repeated_after_same_host_403",
+          "note": "Ordinary GET to ResearchGate had already returned 403 for the Alzheimer PDF, so no repeated ordinary host probes were made. This PDF was independently parsed by web.run."
+        }
+      },
+      "notes": "ResearchGate content is readable through web PDF reader, but ordinary HTTP access on this host can return 403. Link to author-uploaded remote PDF only; no local rehosting.",
+      "pdfKind": "author-upload",
+      "checked": "2026-10-15",
+      "title": "Differences in auditory associative memory between younger adults and older adults",
+      "type": "journal",
+      "host": "www.researchgate.net",
+      "round": 2
+    },
+    {
+      "id": "qu-3a6ae81fd4",
+      "pdf": "https://ccrma.stanford.edu/~zhangmf/paper/AES2021.pdf",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:TFP_iSt0sucC",
+      "verification": {
+        "method": "Ordinary HTTPS GET, verify %PDF- file header, parse full PDF with pypdf, inspect first-page title and author list.",
+        "httpStatus": 200,
+        "contentType": "application/pdf",
+        "bytes": 302881,
+        "sha256": "5ab12910c6305c695236b9ce9f9694f93b68fb380e8327e5812fde045f0350b7",
+        "pages": 7,
+        "titleMatch": true,
+        "authorMatch": true,
+        "pdfFile": "qu-3a6ae81fd4.pdf",
+        "extractedTextFile": "qu-3a6ae81fd4.txt"
+      },
+      "notes": "Author Stanford webpage copy. First page explicitly states AES 150th Convention, 2021 May 25–28. Site formal publication year 2021 is supported despite Scholar profile showing 2020.",
+      "pdfKind": "author-copy",
+      "checked": "2026-10-15",
+      "title": "Individualized HRTF-based Binaural Renderer for Higher-Order Ambisonics",
+      "type": "conference",
+      "host": "ccrma.stanford.edu",
+      "round": 2
+    },
+    {
+      "id": "qu-e7526c5e65",
+      "pdf": "https://www.researchgate.net/profile/Tianshu-Qu/publication/338366378_A_Generative_Adversarial_Net-Based_Bandwidth_Extension_Method_for_Audio_Compression/links/5e3d4928458515072d8681f6/A-Generative-Adversarial-Net-Based-Bandwidth-Extension-Method-for-Audio-Compression.pdf",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:-f6ydRqryjwC",
+      "verification": {
+        "method": "web.run opened the exact Google Scholar PDF target and parsed it as application/pdf. First-page title and authors match; DOI checked when printed.",
+        "contentType": "application/pdf",
+        "pages": 8,
+        "titleMatch": true,
+        "authorMatch": true,
+        "webEvidence": "turn122view0 lines 0–12",
+        "ordinaryGet": {
+          "status": "not_repeated_after_same_host_403",
+          "note": "Ordinary GET to ResearchGate had already returned 403 for the Alzheimer PDF, so no repeated ordinary host probes were made. This PDF was independently parsed by web.run."
+        }
+      },
+      "notes": "ResearchGate content is readable through web PDF reader, but ordinary HTTP access on this host can return 403. Link to author-uploaded remote PDF only; no local rehosting.",
+      "pdfKind": "author-upload",
+      "checked": "2026-10-15",
+      "additionalSource": "https://www.researchgate.net/publication/338366378_A_Generative_Adversarial_Net-Based_Bandwidth_Extension_Method_for_Audio_Compression",
+      "additionalVerification": {
+        "status": "verified",
+        "method": "web PDF parsing",
+        "contentType": "application/pdf",
+        "pages": 8,
+        "titleAndAuthorsChecked": true,
+        "toolRef": "turn125view0"
+      },
+      "additionalNotes": "曲天书本人公开上传，日期 2020-02-07。PDF 首页 DOI 10.17743/jaes.2019.0047、题名和作者均匹配。PDF 第二作者为 Tiejun Liu，当前目录拼写 Tiekun Liu；此处只报告原文差异，未改目录。",
+      "title": "A Generative Adversarial Net-Based Bandwidth Extension Method for Audio Compression",
+      "type": "journal",
+      "host": "www.researchgate.net",
+      "round": 2
+    },
+    {
+      "id": "qu-dcfe795a14",
+      "pdf": "https://www.researchgate.net/profile/Huang-Zhichao-2/publication/313544885_An_environment_adaptive_loudspeaker_calibration_method_for_Ambisonics_decoding_system/links/61fb526a11a1090a79cc1340/An-environment-adaptive-loudspeaker-calibration-method-for-Ambisonics-decoding-system.pdf",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:4TOpqqG69KYC",
+      "verification": {
+        "method": "web.run opened the exact Google Scholar PDF target and parsed it as application/pdf. First-page title and authors match; DOI checked when printed.",
+        "contentType": "application/pdf",
+        "pages": 4,
+        "titleMatch": true,
+        "authorMatch": true,
+        "webEvidence": "turn124view0 lines 0–5",
+        "ordinaryGet": {
+          "status": "not_repeated_after_same_host_403",
+          "note": "Ordinary GET to ResearchGate had already returned 403 for the Alzheimer PDF, so no repeated ordinary host probes were made. This PDF was independently parsed by web.run."
+        }
+      },
+      "notes": "ResearchGate content is readable through web PDF reader, but ordinary HTTP access on this host can return 403. Link to author-uploaded remote PDF only; no local rehosting.",
+      "pdfKind": "author-upload",
+      "checked": "2026-10-15",
+      "additionalSource": "https://www.researchgate.net/publication/313544885_An_environment_adaptive_loudspeaker_calibration_method_for_Ambisonics_decoding_system",
+      "additionalVerification": {
+        "status": "verified",
+        "method": "web PDF parsing",
+        "contentType": "application/pdf",
+        "pages": 4,
+        "titleAndAuthorsChecked": true,
+        "toolRef": "turn152view0"
+      },
+      "additionalNotes": "第一作者 Huang Zhichao 于 2022-02-03 公开上传。web 工具已实际解析四页 PDF，题名、五位作者及页码 24–27 匹配。",
+      "title": "An environment adaptive loudspeaker calibration method for Ambisonics decoding system",
+      "type": "conference",
+      "host": "www.researchgate.net",
+      "round": 2
+    },
+    {
+      "id": "qu-9276816fe6",
+      "pdf": "https://www.researchgate.net/profile/Tianshu-Qu/publication/224529850_Distance-Dependent_Head-Related_Transfer_Functions_Measured_With_High_Spatial_Resolution_Using_a_Spark_Gap/links/00b7d522717ff8d101000000/Distance-Dependent-Head-Related-Transfer-Functions-Measured-With-High-Spatial-Resolution-Using-a-Spark-Gap.pdf",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:u-x6o8ySG0sC",
+      "verification": {
+        "method": "web.run opened the exact Google Scholar PDF target and parsed it as application/pdf. First-page title and authors match; DOI checked when printed.",
+        "contentType": "application/pdf",
+        "pages": 9,
+        "titleMatch": true,
+        "authorMatch": true,
+        "webEvidence": "turn127view0 lines 0–4 and 47",
+        "ordinaryGet": {
+          "status": "not_repeated_after_same_host_403",
+          "note": "Ordinary GET to ResearchGate had already returned 403 for the Alzheimer PDF, so no repeated ordinary host probes were made. This PDF was independently parsed by web.run."
+        }
+      },
+      "notes": "ResearchGate content is readable through web PDF reader, but ordinary HTTP access on this host can return 403. Link to author-uploaded remote PDF only; no local rehosting.",
+      "pdfKind": "author-upload",
+      "checked": "2026-10-15",
+      "additionalSource": "https://www.researchgate.net/publication/224529850_Distance-Dependent_Head-Related_Transfer_Functions_Measured_With_High_Spatial_Resolution_Using_a_Spark_Gap",
+      "additionalVerification": {
+        "status": "verified",
+        "method": "web PDF parsing",
+        "contentType": "application/pdf",
+        "pages": 9,
+        "titleAndAuthorsChecked": true,
+        "toolRef": "turn136view1"
+      },
+      "additionalNotes": "曲天书本人公开上传。web 工具已实际解析九页 PDF，首页题名、六位作者和 DOI 10.1109/TASL.2009.2020532 均与目录匹配。",
+      "title": "Distance-Dependent Head-Related Transfer Functions Measured With High Spatial Resolution Using a Spark Gap",
+      "type": "journal",
+      "host": "www.researchgate.net",
+      "round": 2
+    },
+    {
+      "id": "qu-829637e3b1",
+      "pdf": "https://www.researchgate.net/profile/Tianshu-Qu/publication/4360136_Distance_dependent_head-related_transfer_function_database_of_KEMAR/links/00b4953684d2299d6f000000/Distance-dependent-head-related-transfer-function-database-of-KEMAR.pdf",
+      "source": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WztllNMAAAAJ&pagesize=100&citation_for_view=WztllNMAAAAJ:d1gkVwhDpl0C",
+      "verification": {
+        "method": "web.run opened the exact Google Scholar PDF target and parsed it as application/pdf. First-page title and authors match; DOI checked when printed.",
+        "contentType": "application/pdf",
+        "pages": 5,
+        "titleMatch": true,
+        "authorMatch": true,
+        "webEvidence": "turn129view1 lines 0–7",
+        "ordinaryGet": {
+          "status": "not_repeated_after_same_host_403",
+          "note": "Ordinary GET to ResearchGate had already returned 403 for the Alzheimer PDF, so no repeated ordinary host probes were made. This PDF was independently parsed by web.run."
+        }
+      },
+      "notes": "ResearchGate content is readable through web PDF reader, but ordinary HTTP access on this host can return 403. Link to author-uploaded remote PDF only; no local rehosting.",
+      "pdfKind": "author-upload",
+      "checked": "2026-10-15",
+      "additionalSource": "https://www.researchgate.net/publication/4360136_Distance_dependent_head-related_transfer_function_database_of_KEMAR",
+      "additionalVerification": {
+        "status": "verified",
+        "method": "web PDF parsing",
+        "contentType": "application/pdf",
+        "pages": 5,
+        "titleAndAuthorsChecked": true,
+        "toolRef": "turn121view1"
+      },
+      "additionalNotes": "曲天书本人公开上传，上传日期 2014-05-06。web 工具已实际解析 PDF 五页；不是从落地页推断可用。",
+      "title": "Distance dependent head-related transfer function database of KEMAR",
+      "type": "conference",
+      "host": "www.researchgate.net",
+      "round": 2
+    },
+    {
+      "id": "qu-779bc0fded",
+      "pdf": "https://www.researchgate.net/profile/William-Hartmann/publication/236663841_Perceived_elevation_cued_by_images_rotating_in_horizontal_planes/links/5729ef9608aef7c7e2c4d728/Perceived-elevation-cued-by-images-rotating-in-horizontal-planes.pdf",
+      "source": "https://www.researchgate.net/publication/236663841_Perceived_elevation_cued_by_images_rotating_in_horizontal_planes",
+      "verification": {
+        "status": "verified",
+        "method": "web PDF parsing",
+        "contentType": "application/pdf",
+        "pages": 6,
+        "titleAndAuthorsChecked": true,
+        "toolRef": "turn125view1"
+      },
+      "checked": "2026-10-15",
+      "notes": "William M. Hartmann 本人公开上传，日期 2016-05-04。文件为 POMA 19, 050150 六页会议全文，首页明确 DOI 10.1121/1.4800104。RG 落地页标了同题 JASA 摘要 DOI，已按 PDF 内 DOI 识别为本篇会议全文，未误记为摘要 PDF。",
+      "title": "Perceived elevation cued by images rotating in horizontal planes",
+      "type": "conference",
+      "host": "www.researchgate.net",
+      "round": 2
+    },
+    {
+      "id": "qu-51d3734ba6",
+      "pdf": "https://www.researchgate.net/profile/Larisa-Dunai/publication/236958373_Interaural_Time_Difference_Thresholds_as_a_Function_of_Frequency/links/5ba0eb0f299bf13e6039c053/Interaural-Time-Difference-Thresholds-as-a-Function-of-Frequency.pdf",
+      "source": "https://www.researchgate.net/publication/236958373_Interaural_Time_Difference_Thresholds_as_a_Function_of_Frequency",
+      "verification": {
+        "status": "verified",
+        "method": "web PDF parsing",
+        "contentType": "application/pdf",
+        "pages": 8,
+        "titleAndAuthorsChecked": true,
+        "toolRef": "turn138view0"
+      },
+      "checked": "2026-10-15",
+      "notes": "合作者 Larisa Dunai 公开上传。web 工具已实际解析八页 PDF，页码 239–246，首页题名、三位作者和 DOI 10.1007/978-1-4614-1590-9_27 均与目录匹配。",
+      "title": "Interaural Time Difference Thresholds as a Function of Frequency",
+      "type": "chapter",
+      "host": "www.researchgate.net",
+      "round": 2
+    },
+    {
+      "id": "doi-a8d4258d14",
+      "pdf": "https://acousticalsociety.org/wp-content/uploads/2018/03/thrusday_am.pdf#page=24",
+      "source": "https://acousticalsociety.org/wp-content/uploads/2018/03/thrusday_am.pdf",
+      "verification": {
+        "status": "verified",
+        "method": "web PDF parsing",
+        "contentType": "application/pdf",
+        "pages": 41,
+        "articlePage": 24,
+        "titleAndAuthorsChecked": true,
+        "toolRef": "turn144view2",
+        "textRef": "turn145view2"
+      },
+      "checked": "2026-10-15",
+      "notes": "ASA 官方会议摘要集，文件共 41 页，本条摘要位于 PDF 第 24 页，印刷页 3512，编号 4aPPb12。题名及五位作者均匹配。仅为目录中 DOI 10.1121/1.4806271 的 JASA 会议摘要，不能当作 POMA 六页全文。",
+      "title": "Perceived elevation cued by images rotating in horizontal planes",
+      "type": "abstract",
+      "host": "acousticalsociety.org",
+      "round": 2
+    }
+  ],
+  "searchRounds": [
+    {
+      "round": 1,
+      "checked": "2026-10-15",
+      "newPdfRecords": 30,
+      "newFullPapers": 26,
+      "newAbstractPdfs": 4
+    },
+    {
+      "round": 2,
+      "checked": "2026-10-15",
+      "newPdfRecords": 12,
+      "newFullPapers": 11,
+      "newAbstractPdfs": 1
+    }
+  ],
+  "unresolvedChecks": [
+    {
+      "id": "qu-8520e1d2fd",
+      "checked": "2026-10-15",
+      "conferencePage": "https://cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=13481",
+      "manuscriptLink": "https://www.cmsworkshops.com/ICASSP2026/goto_manuscript.php?pn=13481",
+      "publisherPage": "https://ieeexplore.ieee.org/document/11464467",
+      "status": "publisher_access_required; no public author PDF verified",
+      "verification": "Followed the conference View Manuscript link to IEEE. The IEEE PDF button says You do not have access to this PDF; clicking it opens institutional/member sign-in. Scholar detail and all-versions page provide no public PDF."
+    },
+    {
+      "id": "qu-a07b08acaa",
+      "checked": "2026-10-15",
+      "conferencePage": "https://www.cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=5364&bare=1",
+      "manuscriptLink": "https://www.cmsworkshops.com/ICASSP2026/goto_manuscript.php?pn=5364",
+      "publisherPage": "https://ieeexplore.ieee.org/document/11461391",
+      "status": "publisher_access_required; no public author PDF verified",
+      "verification": "Followed the conference View Manuscript link to IEEE. The live IEEE PDF and Download PDF buttons both say You do not have access to this PDF; the page displays Sign In or Purchase. Scholar detail and all-versions page provide no public PDF. ResearchGate states No full-text available."
+    }
+  ]
+}
